@@ -1,0 +1,772 @@
+2026-01-12 13:01:59: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:01:59: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:01:59: Database was open successfully
+2026-01-12 13:01:59: Checking for database schema update...
+2026-01-12 13:01:59: Current database version <null>
+2026-01-12 13:01:59: Upgrading database from version 0
+2026-01-12 13:01:59: Converting database to version 1
+2026-01-12 13:01:59: Converting database to version 2
+2026-01-12 13:01:59: Converting database to version 3
+2026-01-12 13:01:59: Converting database to version 4
+2026-01-12 13:01:59: Converting database to version 5
+2026-01-12 13:01:59: Converting database to version 6
+2026-01-12 13:01:59: Converting database to version 7
+2026-01-12 13:01:59: Converting database to version 8
+2026-01-12 13:01:59: Converting database to version 9
+2026-01-12 13:02:00: Converting database to version 10
+2026-01-12 13:02:00: Converting database to version 11
+2026-01-12 13:02:00: Converting database to version 12
+2026-01-12 13:02:00: Converting database to version 13
+2026-01-12 13:02:00: Converting database to version 14
+2026-01-12 13:02:00: Converting database to version 15
+2026-01-12 13:02:00: Converting database to version 16
+2026-01-12 13:02:00: Converting database to version 17
+2026-01-12 13:02:00: Converting database to version 18
+2026-01-12 13:02:00: Converting database to version 19
+2026-01-12 13:02:00: Converting database to version 20
+2026-01-12 13:02:00: Converting database to version 21
+2026-01-12 13:02:00: Converting database to version 22
+2026-01-12 13:02:00: Converting database to version 23
+2026-01-12 13:02:00: Converting database to version 24
+2026-01-12 13:02:00: Converting database to version 25
+2026-01-12 13:02:00: Converting database to version 26
+2026-01-12 13:02:00: Converting database to version 27
+2026-01-12 13:02:00: Converting database to version 28
+2026-01-12 13:02:00: Converting database to version 29
+2026-01-12 13:02:00: Converting database to version 30
+2026-01-12 13:02:00: Converting database to version 31
+2026-01-12 13:02:00: Converting database to version 32
+2026-01-12 13:02:00: Converting database to version 33
+2026-01-12 13:02:01: Converting database to version 34
+2026-01-12 13:02:01: Migration failed with fallback and will not be repeated - saving version number
+2026-01-12 13:02:01: Converting database to version 35
+2026-01-12 13:02:01: Converting database to version 36
+2026-01-12 13:02:01: Converting database to version 37
+2026-01-12 13:02:01: Converting database to version 38
+2026-01-12 13:02:01: Converting database to version 39
+2026-01-12 13:02:01: Converting database to version 40
+2026-01-12 13:02:01: Converting database to version 41
+2026-01-12 13:02:01: Converting database to version 42
+2026-01-12 13:02:01: Converting database to version 43
+2026-01-12 13:02:01: Converting database to version 44
+2026-01-12 13:02:01: Converting database to version 45
+2026-01-12 13:02:01: Converting database to version 46
+2026-01-12 13:02:01: Converting database to version 47
+2026-01-12 13:02:01: Converting database to version 48
+2026-01-12 13:02:01: New version: 48. Previously recorded version: 0
+2026-01-12 13:02:01: Initializing tables...
+2026-01-12 13:02:01: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 13:02:01: KeychainService: Driver unsupported:node-keytar
+2026-01-12 13:02:01: KeychainService: checking if keychain supported
+2026-01-12 13:02:01: KeychainService: Failed to start in read-only mode -- no supported drivers found.
+2026-01-12 13:02:01: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-01-12 13:02:01: handleSyncStartupOperation: Processing operation: 0
+2026-01-12 13:02:01: App: Client ID: 38de2abaa5c349378cf5aef0a190119c
+2026-01-12 13:02:01: First start: detected locale as en_GB
+2026-01-12 13:02:01: models/Setting: Skipping all default migrations...
+2026-01-12 13:02:01: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:02:01: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:02:01: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-12 13:02:01: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-01-12 13:02:01: ResourceFetcher: Auto-added resources: 0
+2026-01-12 13:02:01: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-01-12 13:02:01: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-12 13:02:01: Running migration: 20
+2026-01-12 13:02:01: DeleteAction: MigrationService: ; Item IDs: 1
+2026-01-12 13:02:01: Running migration: 27
+2026-01-12 13:02:01: DeleteAction: MigrationService: ; Item IDs: 2
+2026-01-12 13:02:01: Running migration: 33
+2026-01-12 13:02:01: SearchEngine: Updating FTS table...
+2026-01-12 13:02:01: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:02:02: SearchEngine: Updated FTS table in 4ms. Inserted: 0. Deleted: 0
+2026-01-12 13:02:02: Performance: SearchEngine/syncTables: End at 3.34s (took 109.5ms)
+2026-01-12 13:02:02: DeleteAction: MigrationService: ; Item IDs: 3
+2026-01-12 13:02:02: Running migration: 35
+2026-01-12 13:02:02: SearchEngine: Updating FTS table...
+2026-01-12 13:02:06: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:02:06: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:02:06: Database was open successfully
+2026-01-12 13:02:06: Checking for database schema update...
+2026-01-12 13:02:06: Current database version {"version":48,"table_fields_version":48}
+2026-01-12 13:02:06: Upgrading database from version 48
+2026-01-12 13:02:06: New version: 48. Previously recorded version: 48
+2026-01-12 13:02:06: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 13:02:06: KeychainService: Driver unsupported:node-keytar
+2026-01-12 13:02:06: KeychainService: checking if keychain supported
+2026-01-12 13:02:06: KeychainService: Failed to start in read-only mode -- no supported drivers found.
+2026-01-12 13:02:06: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-01-12 13:02:06: handleSyncStartupOperation: Processing operation: 0
+2026-01-12 13:02:06: App: Client ID: 2c645a7bdd7245e39a8aced86eb2e186
+2026-01-12 13:02:06: First start: detected locale as en_GB
+2026-01-12 13:02:06: models/Setting: Skipping all default migrations...
+2026-01-12 13:02:06: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:02:06: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:02:06: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-12 13:02:06: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-01-12 13:02:06: ResourceFetcher: Auto-added resources: 0
+2026-01-12 13:02:06: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-01-12 13:02:06: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-12 13:02:06: Running migration: 35
+2026-01-12 13:02:06: SearchEngine: Updating FTS table...
+2026-01-12 13:02:06: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:02:06: SearchEngine: Updated FTS table in 4ms. Inserted: 0. Deleted: 0
+2026-01-12 13:02:06: Performance: SearchEngine/syncTables: End at 1.07s (took 109.46ms)
+2026-01-12 13:02:06: DeleteAction: MigrationService: ; Item IDs: 4
+2026-01-12 13:02:06: Running migration: 42
+2026-01-12 13:02:06: DeleteAction: MigrationService: ; Item IDs: 5
+2026-01-12 13:02:06: Performance: BaseApplication/start: End at 1.16s (took 0.29s)
+2026-01-12 13:02:06: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:02:06: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:02:06: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:02:06: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:02:06: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:02:06: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:02:06: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:02:06: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:02:06: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:02:06: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2026-01-12 13:02:07: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-12 13:02:10: RevisionService: maintenance: Starting...
+2026-01-12 13:02:10: RevisionService: maintenance: Service is enabled
+2026-01-12 13:02:10: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 13:02:10: RevisionService: maintenance: Done in 105ms
+2026-01-12 13:02:16: SearchEngine: Updating FTS table...
+2026-01-12 13:02:16: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:02:16: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-12 13:02:16: Performance: SearchEngine/syncTables: End at 11.06s (took 103.88ms)
+2026-01-12 13:02:36: ResourceService::indexNoteResources: Start
+2026-01-12 13:02:36: Performance: ResourceService/indexNoteResources: End at 31.37s (took 102.84ms)
+2026-01-12 13:02:36: ResourceService::indexNoteResources: Completed
+2026-01-12 13:02:36: ResourceService::deleteOrphanResources: []
+2026-01-12 13:04:37: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:04:37: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:04:37: Database was open successfully
+2026-01-12 13:04:37: Checking for database schema update...
+2026-01-12 13:04:37: Current database version {"version":48,"table_fields_version":48}
+2026-01-12 13:04:37: Upgrading database from version 48
+2026-01-12 13:04:37: New version: 48. Previously recorded version: 48
+2026-01-12 13:04:37: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 13:04:37: KeychainService: Driver unsupported:node-keytar
+2026-01-12 13:04:37: KeychainService: checking if keychain supported
+2026-01-12 13:05:58: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:05:58: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:05:58: Database was open successfully
+2026-01-12 13:05:58: Checking for database schema update...
+2026-01-12 13:05:58: Current database version {"version":48,"table_fields_version":48}
+2026-01-12 13:05:58: Upgrading database from version 48
+2026-01-12 13:05:58: New version: 48. Previously recorded version: 48
+2026-01-12 13:05:58: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 13:05:58: KeychainService: Driver unsupported:node-keytar
+2026-01-12 13:05:58: KeychainService: checking if keychain supported
+2026-01-12 13:06:32: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:06:32: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:06:32: Database was open successfully
+2026-01-12 13:06:32: Checking for database schema update...
+2026-01-12 13:06:32: Current database version {"version":48,"table_fields_version":48}
+2026-01-12 13:06:32: Upgrading database from version 48
+2026-01-12 13:06:32: New version: 48. Previously recorded version: 48
+2026-01-12 13:06:32: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 13:06:32: KeychainService: Driver unsupported:node-keytar
+2026-01-12 13:06:32: KeychainService: checking if keychain supported
+2026-01-12 13:07:20: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:07:20: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:07:20: Database was open successfully
+2026-01-12 13:07:20: Checking for database schema update...
+2026-01-12 13:07:20: Current database version {"version":48,"table_fields_version":48}
+2026-01-12 13:07:20: Upgrading database from version 48
+2026-01-12 13:07:20: New version: 48. Previously recorded version: 48
+2026-01-12 13:07:20: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 13:07:20: KeychainService: Driver unsupported:node-keytar
+2026-01-12 13:07:20: KeychainService: checking if keychain supported
+2026-01-12 13:07:20: KeychainService: check was already done - skipping. Supported: 0
+2026-01-12 13:07:20: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-01-12 13:07:20: handleSyncStartupOperation: Processing operation: 0
+2026-01-12 13:07:20: App: Client ID: 2c645a7bdd7245e39a8aced86eb2e186
+2026-01-12 13:07:20: models/Setting: Applying default migrations...
+2026-01-12 13:07:20: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:07:20: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:07:20: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-12 13:07:20: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-01-12 13:07:20: ResourceFetcher: Auto-added resources: 0
+2026-01-12 13:07:20: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-01-12 13:07:20: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-12 13:07:20: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:07:20: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:07:20: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:07:20: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:07:20: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:07:20: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:07:20: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:07:20: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:07:20: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:07:20: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2026-01-12 13:07:21: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-12 13:07:24: RevisionService: maintenance: Starting...
+2026-01-12 13:07:24: RevisionService: maintenance: Service is enabled
+2026-01-12 13:07:24: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 13:07:24: RevisionService: maintenance: Done in 105ms
+2026-01-12 13:07:30: SearchEngine: Updating FTS table...
+2026-01-12 13:07:30: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:07:30: SearchEngine: Updated FTS table in 3ms. Inserted: 0. Deleted: 0
+2026-01-12 13:07:30: Performance: SearchEngine/syncTables: End at 11.05s (took 105.29ms)
+2026-01-12 13:07:44: SearchEngine: Updating FTS table...
+2026-01-12 13:07:44: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:07:44: SearchEngine: Updated FTS table in 3ms. Inserted: 0. Deleted: 0
+2026-01-12 13:07:44: Performance: SearchEngine/syncTables: End at 24.91s (took 103.94ms)
+2026-01-12 13:07:49: Preparing scheduled sync
+2026-01-12 13:07:49: Sync cancelled - no sync target is selected.
+2026-01-12 13:07:50: ResourceService::indexNoteResources: Start
+2026-01-12 13:07:50: Performance: ResourceService/indexNoteResources: End at 31.14s (took 102.06ms)
+2026-01-12 13:07:50: ResourceService::indexNoteResources: Completed
+2026-01-12 13:07:50: ResourceService::deleteOrphanResources: []
+2026-01-12 13:07:58: Fetching geolocation...
+2026-01-12 13:07:58: Got lat/long
+2026-01-12 13:07:58: Updating lat/long of note 6665aad26b364d05951dc1cba9393997
+2026-01-12 13:08:08: SearchEngine: Updating FTS table...
+2026-01-12 13:08:08: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:08:08: SearchEngine: Updated FTS table in 93ms. Inserted: 1. Deleted: 0
+2026-01-12 13:08:08: Performance: SearchEngine/syncTables: End at 48.78s (took 193.85ms)
+2026-01-12 13:08:13: Preparing scheduled sync
+2026-01-12 13:08:13: Sync cancelled - no sync target is selected.
+2026-01-12 13:49:57: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:49:57: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:49:57: Database was open successfully
+2026-01-12 13:49:57: Checking for database schema update...
+2026-01-12 13:49:57: Current database version {"version":48,"table_fields_version":48}
+2026-01-12 13:49:57: Upgrading database from version 48
+2026-01-12 13:49:57: New version: 48. Previously recorded version: 48
+2026-01-12 13:49:57: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 13:49:57: KeychainService: Driver unsupported:node-keytar
+2026-01-12 13:49:57: KeychainService: checking if keychain supported
+2026-01-12 13:49:57: KeychainService: check was already done - skipping. Supported: 0
+2026-01-12 13:49:57: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-01-12 13:49:57: handleSyncStartupOperation: Processing operation: 0
+2026-01-12 13:49:57: App: Client ID: 2c645a7bdd7245e39a8aced86eb2e186
+2026-01-12 13:49:57: models/Setting: Applying default migrations...
+2026-01-12 13:49:57: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:49:57: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:49:57: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-12 13:49:57: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-01-12 13:49:57: ResourceFetcher: Auto-added resources: 0
+2026-01-12 13:49:57: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-01-12 13:49:57: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-12 13:49:57: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:49:57: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:49:57: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:49:57: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:49:57: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:49:57: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:49:57: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:49:57: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:49:57: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:49:58: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2026-01-12 13:49:59: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-12 13:50:02: RevisionService: maintenance: Starting...
+2026-01-12 13:50:02: RevisionService: maintenance: Service is enabled
+2026-01-12 13:50:02: RevisionService: collectRevisions: Created revisions for 1 notes
+2026-01-12 13:50:02: RevisionService: maintenance: Done in 206ms
+2026-01-12 13:50:07: SearchEngine: Updating FTS table...
+2026-01-12 13:50:08: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:50:08: SearchEngine: Updated FTS table in 4ms. Inserted: 0. Deleted: 0
+2026-01-12 13:50:08: Performance: SearchEngine/syncTables: End at 11.05s (took 104.32ms)
+2026-01-12 13:50:28: ResourceService::indexNoteResources: Start
+2026-01-12 13:50:28: Performance: ResourceService/indexNoteResources: End at 31.19s (took 150.5ms)
+2026-01-12 13:50:28: ResourceService::indexNoteResources: Completed
+2026-01-12 13:50:28: ResourceService::deleteOrphanResources: []
+2026-01-12 13:50:45: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:50:45: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 13:50:45: Database was open successfully
+2026-01-12 13:50:45: Checking for database schema update...
+2026-01-12 13:50:45: Current database version {"version":48,"table_fields_version":48}
+2026-01-12 13:50:45: Upgrading database from version 48
+2026-01-12 13:50:45: New version: 48. Previously recorded version: 48
+2026-01-12 13:50:45: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 13:50:45: KeychainService: Driver unsupported:node-keytar
+2026-01-12 13:50:45: KeychainService: checking if keychain supported
+2026-01-12 13:50:45: KeychainService: check was already done - skipping. Supported: 0
+2026-01-12 13:50:45: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-01-12 13:50:45: handleSyncStartupOperation: Processing operation: 0
+2026-01-12 13:50:45: App: Client ID: 2c645a7bdd7245e39a8aced86eb2e186
+2026-01-12 13:50:45: models/Setting: Applying default migrations...
+2026-01-12 13:50:45: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:50:45: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:50:45: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-12 13:50:45: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-01-12 13:50:45: ResourceFetcher: Auto-added resources: 0
+2026-01-12 13:50:45: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-01-12 13:50:45: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-12 13:50:45: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:50:45: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:50:45: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:50:45: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:50:45: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:50:45: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:50:45: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 13:50:45: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 13:50:45: e2ee/utils: Loaded master keys: 0
+2026-01-12 13:50:45: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2026-01-12 13:50:46: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-12 13:50:49: RevisionService: maintenance: Starting...
+2026-01-12 13:50:49: RevisionService: maintenance: Service is enabled
+2026-01-12 13:50:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 13:50:49: RevisionService: maintenance: Done in 106ms
+2026-01-12 13:50:55: SearchEngine: Updating FTS table...
+2026-01-12 13:50:55: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:50:55: SearchEngine: Updated FTS table in 5ms. Inserted: 0. Deleted: 0
+2026-01-12 13:50:55: Performance: SearchEngine/syncTables: End at 11.06s (took 106.23ms)
+2026-01-12 13:51:15: ResourceService::indexNoteResources: Start
+2026-01-12 13:51:15: Performance: ResourceService/indexNoteResources: End at 31.15s (took 103.94ms)
+2026-01-12 13:51:15: ResourceService::indexNoteResources: Completed
+2026-01-12 13:51:15: ResourceService::deleteOrphanResources: []
+2026-01-12 13:51:54: Disabling fullscreen...
+2026-01-12 13:52:21: SearchEngine: Updating FTS table...
+2026-01-12 13:52:22: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:52:22: SearchEngine: Updated FTS table in 130ms. Inserted: 1. Deleted: 0
+2026-01-12 13:52:22: Performance: SearchEngine/syncTables: End at 97.97s (took 231.71ms)
+2026-01-12 13:52:26: Preparing scheduled sync
+2026-01-12 13:52:26: Sync cancelled - no sync target is selected.
+2026-01-12 13:54:39: Disabling fullscreen...
+2026-01-12 13:55:06: Fetching geolocation...
+2026-01-12 13:55:06: Got lat/long
+2026-01-12 13:55:06: Updating lat/long of note c8f49de53bf84a8da22d976625812252
+2026-01-12 13:55:16: SearchEngine: Updating FTS table...
+2026-01-12 13:55:16: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:55:16: SearchEngine: Updated FTS table in 85ms. Inserted: 1. Deleted: 0
+2026-01-12 13:55:16: Performance: SearchEngine/syncTables: End at 272.52s (took 185.53ms)
+2026-01-12 13:55:18: Disabling fullscreen...
+2026-01-12 13:55:27: Preparing scheduled sync
+2026-01-12 13:55:27: Sync cancelled - no sync target is selected.
+2026-01-12 13:55:28: Disabling fullscreen...
+2026-01-12 13:55:41: SearchEngine: Updating FTS table...
+2026-01-12 13:55:41: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:55:41: SearchEngine: Updated FTS table in 132ms. Inserted: 1. Deleted: 0
+2026-01-12 13:55:41: Performance: SearchEngine/syncTables: End at 297.62s (took 232.39ms)
+2026-01-12 13:55:42: Disabling fullscreen...
+2026-01-12 13:55:45: Running background sync on timer...
+2026-01-12 13:55:45: Preparing scheduled sync
+2026-01-12 13:55:45: Sync cancelled - no sync target is selected.
+2026-01-12 13:58:43: SearchEngine: Updating FTS table...
+2026-01-12 13:58:43: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:58:43: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-12 13:58:43: Performance: SearchEngine/syncTables: End at 479.63s (took 102.03ms)
+2026-01-12 13:58:47: Updating lat/long of note aebf1a2590ed4d26831010516ccac7c3
+2026-01-12 13:58:51: Disabling fullscreen...
+2026-01-12 13:59:06: SearchEngine: Updating FTS table...
+2026-01-12 13:59:06: Preparing scheduled sync
+2026-01-12 13:59:06: Sync cancelled - no sync target is selected.
+2026-01-12 13:59:06: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 13:59:06: SearchEngine: Updated FTS table in 125ms. Inserted: 1. Deleted: 0
+2026-01-12 13:59:06: Performance: SearchEngine/syncTables: End at 502.56s (took 225.48ms)
+2026-01-12 13:59:21: Preparing scheduled sync
+2026-01-12 13:59:21: Sync cancelled - no sync target is selected.
+2026-01-12 14:00:45: Running background sync on timer...
+2026-01-12 14:00:45: Preparing scheduled sync
+2026-01-12 14:00:45: Sync cancelled - no sync target is selected.
+2026-01-12 14:00:45: RevisionService: maintenance: Starting...
+2026-01-12 14:00:45: RevisionService: maintenance: Service is enabled
+2026-01-12 14:00:45: RevisionService: collectRevisions: Created revisions for 3 notes
+2026-01-12 14:00:45: RevisionService: maintenance: Done in 277ms
+2026-01-12 14:01:06: Updating lat/long of note a312e53ce4ee47318b32d9fb6ff9c79d
+2026-01-12 14:01:16: SearchEngine: Updating FTS table...
+2026-01-12 14:01:16: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 14:01:16: SearchEngine: Updated FTS table in 111ms. Inserted: 1. Deleted: 0
+2026-01-12 14:01:16: Performance: SearchEngine/syncTables: End at 632.53s (took 211.66ms)
+2026-01-12 14:01:17: Disabling fullscreen...
+2026-01-12 14:01:21: Disabling fullscreen...
+2026-01-12 14:01:27: Preparing scheduled sync
+2026-01-12 14:01:27: Sync cancelled - no sync target is selected.
+2026-01-12 14:44:07: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 14:44:07: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-12 14:44:07: Database was open successfully
+2026-01-12 14:44:07: Checking for database schema update...
+2026-01-12 14:44:07: Current database version {"version":48,"table_fields_version":48}
+2026-01-12 14:44:07: Upgrading database from version 48
+2026-01-12 14:44:07: New version: 48. Previously recorded version: 48
+2026-01-12 14:44:07: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-12 14:44:07: KeychainService: Driver unsupported:node-keytar
+2026-01-12 14:44:07: KeychainService: checking if keychain supported
+2026-01-12 14:44:07: KeychainService: check was already done - skipping. Supported: 0
+2026-01-12 14:44:07: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-01-12 14:44:07: handleSyncStartupOperation: Processing operation: 0
+2026-01-12 14:44:07: App: Client ID: 2c645a7bdd7245e39a8aced86eb2e186
+2026-01-12 14:44:07: models/Setting: Applying default migrations...
+2026-01-12 14:44:07: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 14:44:07: e2ee/utils: Loaded master keys: 0
+2026-01-12 14:44:07: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-01-12 14:44:07: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-12 14:44:07: ResourceFetcher: Auto-added resources: 0
+2026-01-12 14:44:07: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-01-12 14:44:07: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 14:44:07: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 14:44:07: e2ee/utils: Loaded master keys: 0
+2026-01-12 14:44:07: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 14:44:07: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 14:44:07: e2ee/utils: Loaded master keys: 0
+2026-01-12 14:44:07: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-12 14:44:07: e2ee/utils: Trying to load 0 master keys...
+2026-01-12 14:44:07: e2ee/utils: Loaded master keys: 0
+2026-01-12 14:44:07: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-12 14:44:07: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2026-01-12 14:44:08: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-12 14:44:11: RevisionService: maintenance: Starting...
+2026-01-12 14:44:11: RevisionService: maintenance: Service is enabled
+2026-01-12 14:44:11: RevisionService: collectRevisions: Created revisions for 1 notes
+2026-01-12 14:44:11: RevisionService: maintenance: Done in 209ms
+2026-01-12 14:44:14: Disabling fullscreen...
+2026-01-12 14:47:54: SearchEngine: Updating FTS table...
+2026-01-12 14:47:54: ResourceService::indexNoteResources: Start
+2026-01-12 14:47:54: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-12 14:47:54: SearchEngine: Updated FTS table in 117ms. Inserted: 1. Deleted: 0
+2026-01-12 14:47:54: Performance: SearchEngine/syncTables: End at 228.26s (took 217.81ms)
+2026-01-12 14:47:54: Performance: ResourceService/indexNoteResources: End at 228.32s (took 0.27s)
+2026-01-12 14:47:54: ResourceService::indexNoteResources: Completed
+2026-01-12 14:47:54: ResourceService::deleteOrphanResources: []
+2026-01-12 14:47:55: Disabling fullscreen...
+2026-01-12 14:48:09: Preparing scheduled sync
+2026-01-12 14:48:09: Sync cancelled - no sync target is selected.
+2026-01-12 14:49:07: Running background sync on timer...
+2026-01-12 14:49:07: Preparing scheduled sync
+2026-01-12 14:49:07: Sync cancelled - no sync target is selected.
+2026-01-12 14:54:07: Running background sync on timer...
+2026-01-12 14:54:07: Preparing scheduled sync
+2026-01-12 14:54:07: Sync cancelled - no sync target is selected.
+2026-01-12 14:54:07: RevisionService: maintenance: Starting...
+2026-01-12 14:54:07: RevisionService: maintenance: Service is enabled
+2026-01-12 14:54:07: RevisionService: collectRevisions: Created revisions for 1 notes
+2026-01-12 14:54:07: RevisionService: maintenance: Done in 182ms
+2026-01-12 14:59:07: Running background sync on timer...
+2026-01-12 14:59:07: Preparing scheduled sync
+2026-01-12 14:59:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:04:07: RevisionService: maintenance: Starting...
+2026-01-12 15:04:07: RevisionService: maintenance: Service is enabled
+2026-01-12 15:04:07: Running background sync on timer...
+2026-01-12 15:04:07: Preparing scheduled sync
+2026-01-12 15:04:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:04:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 15:04:07: RevisionService: maintenance: Done in 104ms
+2026-01-12 15:09:07: Running background sync on timer...
+2026-01-12 15:09:07: Preparing scheduled sync
+2026-01-12 15:09:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:14:07: RevisionService: maintenance: Starting...
+2026-01-12 15:14:07: RevisionService: maintenance: Service is enabled
+2026-01-12 15:14:07: Running background sync on timer...
+2026-01-12 15:14:07: Preparing scheduled sync
+2026-01-12 15:14:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:14:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 15:14:07: RevisionService: maintenance: Done in 102ms
+2026-01-12 15:19:07: Running background sync on timer...
+2026-01-12 15:19:07: Preparing scheduled sync
+2026-01-12 15:19:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:24:07: RevisionService: maintenance: Starting...
+2026-01-12 15:24:07: RevisionService: maintenance: Service is enabled
+2026-01-12 15:24:07: Running background sync on timer...
+2026-01-12 15:24:07: Preparing scheduled sync
+2026-01-12 15:24:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:24:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 15:24:07: RevisionService: maintenance: Done in 103ms
+2026-01-12 15:29:07: Running background sync on timer...
+2026-01-12 15:29:07: Preparing scheduled sync
+2026-01-12 15:29:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:34:07: RevisionService: maintenance: Starting...
+2026-01-12 15:34:07: RevisionService: maintenance: Service is enabled
+2026-01-12 15:34:07: Running background sync on timer...
+2026-01-12 15:34:07: Preparing scheduled sync
+2026-01-12 15:34:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:34:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 15:34:07: RevisionService: maintenance: Done in 103ms
+2026-01-12 15:39:07: Running background sync on timer...
+2026-01-12 15:39:07: Preparing scheduled sync
+2026-01-12 15:39:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:44:07: RevisionService: maintenance: Starting...
+2026-01-12 15:44:07: RevisionService: maintenance: Service is enabled
+2026-01-12 15:44:07: Running background sync on timer...
+2026-01-12 15:44:07: Preparing scheduled sync
+2026-01-12 15:44:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:44:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 15:44:07: RevisionService: maintenance: Done in 103ms
+2026-01-12 15:49:07: Running background sync on timer...
+2026-01-12 15:49:07: Preparing scheduled sync
+2026-01-12 15:49:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:54:07: RevisionService: maintenance: Starting...
+2026-01-12 15:54:07: RevisionService: maintenance: Service is enabled
+2026-01-12 15:54:07: Running background sync on timer...
+2026-01-12 15:54:07: Preparing scheduled sync
+2026-01-12 15:54:07: Sync cancelled - no sync target is selected.
+2026-01-12 15:54:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 15:54:07: RevisionService: maintenance: Done in 104ms
+2026-01-12 15:59:07: Running background sync on timer...
+2026-01-12 15:59:07: Preparing scheduled sync
+2026-01-12 15:59:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:04:07: RevisionService: maintenance: Starting...
+2026-01-12 16:04:07: RevisionService: maintenance: Service is enabled
+2026-01-12 16:04:07: Running background sync on timer...
+2026-01-12 16:04:07: Preparing scheduled sync
+2026-01-12 16:04:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:04:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 16:04:07: RevisionService: maintenance: Done in 101ms
+2026-01-12 16:09:07: Running background sync on timer...
+2026-01-12 16:09:07: Preparing scheduled sync
+2026-01-12 16:09:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:14:07: RevisionService: maintenance: Starting...
+2026-01-12 16:14:07: RevisionService: maintenance: Service is enabled
+2026-01-12 16:14:07: Running background sync on timer...
+2026-01-12 16:14:07: Preparing scheduled sync
+2026-01-12 16:14:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:14:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 16:14:07: RevisionService: maintenance: Done in 103ms
+2026-01-12 16:19:07: Running background sync on timer...
+2026-01-12 16:19:07: Preparing scheduled sync
+2026-01-12 16:19:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:24:07: RevisionService: maintenance: Starting...
+2026-01-12 16:24:07: RevisionService: maintenance: Service is enabled
+2026-01-12 16:24:07: Running background sync on timer...
+2026-01-12 16:24:07: Preparing scheduled sync
+2026-01-12 16:24:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:24:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 16:24:07: RevisionService: maintenance: Done in 102ms
+2026-01-12 16:29:07: Running background sync on timer...
+2026-01-12 16:29:07: Preparing scheduled sync
+2026-01-12 16:29:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:34:07: RevisionService: maintenance: Starting...
+2026-01-12 16:34:07: RevisionService: maintenance: Service is enabled
+2026-01-12 16:34:07: Running background sync on timer...
+2026-01-12 16:34:07: Preparing scheduled sync
+2026-01-12 16:34:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:34:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 16:34:07: RevisionService: maintenance: Done in 102ms
+2026-01-12 16:39:07: Running background sync on timer...
+2026-01-12 16:39:07: Preparing scheduled sync
+2026-01-12 16:39:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:44:07: RevisionService: maintenance: Starting...
+2026-01-12 16:44:07: RevisionService: maintenance: Service is enabled
+2026-01-12 16:44:07: Running background sync on timer...
+2026-01-12 16:44:07: Preparing scheduled sync
+2026-01-12 16:44:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:44:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 16:44:07: RevisionService: maintenance: Done in 103ms
+2026-01-12 16:49:07: Running background sync on timer...
+2026-01-12 16:49:07: Preparing scheduled sync
+2026-01-12 16:49:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:54:07: RevisionService: maintenance: Starting...
+2026-01-12 16:54:07: RevisionService: maintenance: Service is enabled
+2026-01-12 16:54:07: Running background sync on timer...
+2026-01-12 16:54:07: Preparing scheduled sync
+2026-01-12 16:54:07: Sync cancelled - no sync target is selected.
+2026-01-12 16:54:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 16:54:07: RevisionService: maintenance: Done in 103ms
+2026-01-12 16:59:07: Running background sync on timer...
+2026-01-12 16:59:07: Preparing scheduled sync
+2026-01-12 16:59:07: Sync cancelled - no sync target is selected.
+2026-01-12 17:04:07: RevisionService: maintenance: Starting...
+2026-01-12 17:04:07: RevisionService: maintenance: Service is enabled
+2026-01-12 17:04:07: Running background sync on timer...
+2026-01-12 17:04:07: Preparing scheduled sync
+2026-01-12 17:04:07: Sync cancelled - no sync target is selected.
+2026-01-12 17:04:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 17:04:07: RevisionService: maintenance: Done in 104ms
+2026-01-12 17:09:07: Running background sync on timer...
+2026-01-12 17:09:07: Preparing scheduled sync
+2026-01-12 17:09:07: Sync cancelled - no sync target is selected.
+2026-01-12 17:14:07: RevisionService: maintenance: Starting...
+2026-01-12 17:14:07: RevisionService: maintenance: Service is enabled
+2026-01-12 17:14:07: Running background sync on timer...
+2026-01-12 17:14:07: Preparing scheduled sync
+2026-01-12 17:14:07: Sync cancelled - no sync target is selected.
+2026-01-12 17:14:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-12 17:14:07: RevisionService: maintenance: Done in 102ms
+2026-01-12 17:15:43: Disabling fullscreen...
+2026-01-12 17:15:48: Disabling fullscreen...
+2026-01-13 11:52:50: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-01-13 11:52:50: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-01-13 11:52:50: Database was open successfully
+2026-01-13 11:52:50: Checking for database schema update...
+2026-01-13 11:52:50: Current database version {"version":48,"table_fields_version":48}
+2026-01-13 11:52:50: Upgrading database from version 48
+2026-01-13 11:52:50: New version: 48. Previously recorded version: 48
+2026-01-13 11:52:50: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-13 11:52:50: KeychainService: Driver unsupported:node-keytar
+2026-01-13 11:52:50: KeychainService: checking if keychain supported
+2026-01-13 11:52:50: KeychainService: check was already done - skipping. Supported: 0
+2026-01-13 11:52:50: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-01-13 11:52:50: handleSyncStartupOperation: Processing operation: 0
+2026-01-13 11:52:50: App: Client ID: 2c645a7bdd7245e39a8aced86eb2e186
+2026-01-13 11:52:50: models/Setting: Applying default migrations...
+2026-01-13 11:52:50: e2ee/utils: Trying to load 0 master keys...
+2026-01-13 11:52:50: e2ee/utils: Loaded master keys: 0
+2026-01-13 11:52:50: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-01-13 11:52:50: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-13 11:52:50: ResourceFetcher: Auto-added resources: 0
+2026-01-13 11:52:50: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-01-13 11:52:50: Performance: BaseApplication/start: End at 2.47s (took 130.51ms)
+2026-01-13 11:52:50: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-13 11:52:50: e2ee/utils: Trying to load 0 master keys...
+2026-01-13 11:52:50: e2ee/utils: Loaded master keys: 0
+2026-01-13 11:52:50: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-13 11:52:50: e2ee/utils: Trying to load 0 master keys...
+2026-01-13 11:52:50: e2ee/utils: Loaded master keys: 0
+2026-01-13 11:52:50: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-13 11:52:50: e2ee/utils: Trying to load 0 master keys...
+2026-01-13 11:52:50: e2ee/utils: Loaded master keys: 0
+2026-01-13 11:52:50: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-13 11:52:50: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2026-01-13 11:52:51: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-13 11:52:54: RevisionService: maintenance: Starting...
+2026-01-13 11:52:54: RevisionService: maintenance: Service is enabled
+2026-01-13 11:52:54: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-13 11:52:54: RevisionService: maintenance: Done in 109ms
+2026-01-13 11:52:58: Disabling fullscreen...
+2026-01-13 11:55:33: SearchEngine: Updating FTS table...
+2026-01-13 11:55:33: ResourceService::indexNoteResources: Start
+2026-01-13 11:55:34: Performance: ResourceService/indexNoteResources: End at 166.47s (took 197.88ms)
+2026-01-13 11:55:34: ResourceService::indexNoteResources: Completed
+2026-01-13 11:55:34: ResourceService::deleteOrphanResources: []
+2026-01-13 11:55:34: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-13 11:55:34: SearchEngine: Updated FTS table in 143ms. Inserted: 1. Deleted: 0
+2026-01-13 11:55:34: Performance: SearchEngine/syncTables: End at 166.51s (took 243.77ms)
+2026-01-13 11:55:47: SearchEngine: Updating FTS table...
+2026-01-13 11:55:48: Updating items_normalized from {"updated_time":0,"id":""}
+2026-01-13 11:55:48: SearchEngine: Updated FTS table in 92ms. Inserted: 0. Deleted: 0
+2026-01-13 11:55:48: Performance: SearchEngine/syncTables: End at 180.41s (took 193.5ms)
+2026-01-13 11:55:52: Preparing scheduled sync
+2026-01-13 11:55:52: Sync cancelled - no sync target is selected.
+2026-01-13 11:57:50: Running background sync on timer...
+2026-01-13 11:57:50: Preparing scheduled sync
+2026-01-13 11:57:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:02:50: Running background sync on timer...
+2026-01-13 12:02:50: Preparing scheduled sync
+2026-01-13 12:02:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:02:50: RevisionService: maintenance: Starting...
+2026-01-13 12:02:50: RevisionService: maintenance: Service is enabled
+2026-01-13 12:02:50: RevisionService: collectRevisions: Created revisions for 1 notes
+2026-01-13 12:02:50: RevisionService: maintenance: Done in 201ms
+2026-01-13 12:07:50: Running background sync on timer...
+2026-01-13 12:07:50: Preparing scheduled sync
+2026-01-13 12:07:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:12:50: RevisionService: maintenance: Starting...
+2026-01-13 12:12:50: RevisionService: maintenance: Service is enabled
+2026-01-13 12:12:50: Running background sync on timer...
+2026-01-13 12:12:50: Preparing scheduled sync
+2026-01-13 12:12:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:12:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-13 12:12:50: RevisionService: maintenance: Done in 102ms
+2026-01-13 12:17:50: Running background sync on timer...
+2026-01-13 12:17:50: Preparing scheduled sync
+2026-01-13 12:17:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:22:50: RevisionService: maintenance: Starting...
+2026-01-13 12:22:50: RevisionService: maintenance: Service is enabled
+2026-01-13 12:22:50: Running background sync on timer...
+2026-01-13 12:22:50: Preparing scheduled sync
+2026-01-13 12:22:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:22:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-13 12:22:50: RevisionService: maintenance: Done in 105ms
+2026-01-13 12:27:50: Running background sync on timer...
+2026-01-13 12:27:50: Preparing scheduled sync
+2026-01-13 12:27:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:32:50: RevisionService: maintenance: Starting...
+2026-01-13 12:32:50: RevisionService: maintenance: Service is enabled
+2026-01-13 12:32:50: Running background sync on timer...
+2026-01-13 12:32:50: Preparing scheduled sync
+2026-01-13 12:32:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:32:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-13 12:32:50: RevisionService: maintenance: Done in 103ms
+2026-01-13 12:37:50: Running background sync on timer...
+2026-01-13 12:37:50: Preparing scheduled sync
+2026-01-13 12:37:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:42:50: RevisionService: maintenance: Starting...
+2026-01-13 12:42:50: RevisionService: maintenance: Service is enabled
+2026-01-13 12:42:50: Running background sync on timer...
+2026-01-13 12:42:50: Preparing scheduled sync
+2026-01-13 12:42:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:42:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-13 12:42:50: RevisionService: maintenance: Done in 104ms
+2026-01-13 12:47:50: Running background sync on timer...
+2026-01-13 12:47:50: Preparing scheduled sync
+2026-01-13 12:47:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:52:50: RevisionService: maintenance: Starting...
+2026-01-13 12:52:50: RevisionService: maintenance: Service is enabled
+2026-01-13 12:52:50: Running background sync on timer...
+2026-01-13 12:52:50: Preparing scheduled sync
+2026-01-13 12:52:50: Sync cancelled - no sync target is selected.
+2026-01-13 12:52:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-13 12:52:50: RevisionService: maintenance: Done in 104ms
+2026-01-13 12:57:50: Running background sync on timer...
+2026-01-13 12:57:50: Preparing scheduled sync
+2026-01-13 12:57:50: Sync cancelled - no sync target is selected.
+2026-01-13 13:02:50: RevisionService: maintenance: Starting...
+2026-01-13 13:02:50: RevisionService: maintenance: Service is enabled
+2026-01-13 13:02:50: Running background sync on timer...
+2026-01-13 13:02:50: Preparing scheduled sync
+2026-01-13 13:02:50: Sync cancelled - no sync target is selected.
+2026-01-13 13:02:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-13 13:02:50: RevisionService: maintenance: Done in 103ms
+2026-01-13 13:07:50: Running background sync on timer...
+2026-01-13 13:07:50: Preparing scheduled sync
+2026-01-13 13:07:50: Sync cancelled - no sync target is selected.
+2026-01-13 13:12:50: RevisionService: maintenance: Starting...
+2026-01-13 13:12:50: RevisionService: maintenance: Service is enabled
+2026-01-13 13:12:50: Running background sync on timer...
+2026-01-13 13:12:50: Preparing scheduled sync
+2026-01-13 13:12:50: Sync cancelled - no sync target is selected.
+2026-01-13 13:12:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-13 13:12:50: RevisionService: maintenance: Done in 102ms
+2026-01-13 13:17:50: Running background sync on timer...
+2026-01-13 13:17:50: Preparing scheduled sync
+2026-01-13 13:17:50: Sync cancelled - no sync target is selected.
+2026-03-04 10:57:03: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-03-04 10:57:03: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-03-04 10:57:03: Database was open successfully
+2026-03-04 10:57:03: Checking for database schema update...
+2026-03-04 10:57:03: Current database version {"version":48,"table_fields_version":48}
+2026-03-04 10:57:03: Upgrading database from version 48
+2026-03-04 10:57:03: New version: 48. Previously recorded version: 48
+2026-03-04 10:57:03: KeychainService: Driver unsupported:electron-safeStorage
+2026-03-04 10:57:03: KeychainService: Driver unsupported:node-keytar
+2026-03-04 10:57:03: KeychainService: checking if keychain supported
+2026-03-04 10:57:03: KeychainService: check was already done - skipping. Supported: 0
+2026-03-04 10:57:03: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-03-04 10:57:03: handleSyncStartupOperation: Processing operation: 0
+2026-03-04 10:57:03: App: Client ID: 2c645a7bdd7245e39a8aced86eb2e186
+2026-03-04 10:57:03: models/Setting: Applying default migrations...
+2026-03-04 10:57:03: e2ee/utils: Trying to load 0 master keys...
+2026-03-04 10:57:54: App: Profile directory: /home/danielemoggia/.config/joplin
+2026-03-04 10:57:54: App: Root profile directory: /home/danielemoggia/.config/joplin
+2026-03-04 10:57:54: Database was open successfully
+2026-03-04 10:57:54: Checking for database schema update...
+2026-03-04 10:57:54: Current database version {"version":48,"table_fields_version":48}
+2026-03-04 10:57:54: Upgrading database from version 48
+2026-03-04 10:57:54: New version: 48. Previously recorded version: 48
+2026-03-04 10:57:54: KeychainService: Driver unsupported:electron-safeStorage
+2026-03-04 10:57:54: KeychainService: Driver unsupported:node-keytar
+2026-03-04 10:57:54: KeychainService: checking if keychain supported
+2026-03-04 10:57:54: KeychainService: check was already done - skipping. Supported: 0
+2026-03-04 10:57:54: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-03-04 10:57:54: handleSyncStartupOperation: Processing operation: 0
+2026-03-04 10:57:54: App: Client ID: 2c645a7bdd7245e39a8aced86eb2e186
+2026-03-04 10:57:54: models/Setting: Applying default migrations...
+2026-03-04 10:57:54: e2ee/utils: Trying to load 0 master keys...
+2026-03-04 10:57:54: e2ee/utils: Loaded master keys: 0
+2026-03-04 10:57:54: ResourceFetcher: Auto-add resources: Mode: always
+2026-03-04 10:57:54: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-03-04 10:57:54: ResourceFetcher: Auto-added resources: 0
+2026-03-04 10:57:54: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-03-04 10:57:54: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-03-04 10:57:54: App: "syncInfoCache" was changed - setting up encryption related code
+2026-03-04 10:57:54: e2ee/utils: Trying to load 0 master keys...
+2026-03-04 10:57:54: e2ee/utils: Loaded master keys: 0
+2026-03-04 10:57:54: App: "syncInfoCache" was changed - setting up encryption related code
+2026-03-04 10:57:54: e2ee/utils: Trying to load 0 master keys...
+2026-03-04 10:57:54: e2ee/utils: Loaded master keys: 0
+2026-03-04 10:57:54: App: "syncInfoCache" was changed - setting up encryption related code
+2026-03-04 10:57:54: e2ee/utils: Trying to load 0 master keys...
+2026-03-04 10:57:54: e2ee/utils: Loaded master keys: 0
+2026-03-04 10:57:55: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2026-03-04 10:57:55: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-03-04 10:57:59: RevisionService: maintenance: Starting...
+2026-03-04 10:57:59: RevisionService: maintenance: Service is enabled
+2026-03-04 10:57:59: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-03-04 10:57:59: RevisionService: maintenance: Done in 157ms
+2026-03-04 10:58:04: SearchEngine: Updating FTS table...
+2026-03-04 10:58:04: Updating items_normalized from {"updated_time":0,"id":""}
+2026-03-04 10:58:04: SearchEngine: Updated FTS table in 4ms. Inserted: 0. Deleted: 0
+2026-03-04 10:58:05: Performance: SearchEngine/syncTables: End at 11.07s (took 106.41ms)
+2026-03-04 10:58:06: Disabling fullscreen...

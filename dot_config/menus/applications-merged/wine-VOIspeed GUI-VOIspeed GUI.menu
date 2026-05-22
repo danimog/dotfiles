@@ -1,0 +1,16 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>wine-wine</Name>
+    <Directory>wine-wine.directory</Directory>
+  <Menu>
+    <Name>wine-VOIspeed GUI</Name>
+    <Directory>wine-VOIspeed GUI.directory</Directory>
+    <Include>
+      <Filename>wine-VOIspeed GUI-VOIspeed GUI.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+</Menu>

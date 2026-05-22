@@ -1,0 +1,34 @@
+# ~/.local/share/chezmoi/.chezmoiignore
+
+# Browser
+.config/BraveSoftware
+.config/Code
+.config/Code - OSS
+
+# Dati privati / credenziali
+.config/Signal
+.config/FortiClient
+.config/rustdesk
+.config/remmina
+.config/freerdp
+.config/github-copilot
+.config/rclone/rclone.conf  # il token, non tutta la cartella
+
+# Runtime / cache
+.config/pulse
+.config/dconf
+.config/cef_user_data
+.config/jxbrowser
+.config/go
+.config/flutter
+.config/icedtea-web
+**/.cache
+**/*.log
+**/*.lock
+**/*.bak
+**/Cache
+**/CacheStorage
+**/GPUCache
+
+# KeePass: escludi il database, tieni le preferenze UI
+.config/keepassxc/*.kdbx

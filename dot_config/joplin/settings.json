@@ -1,0 +1,7 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"altInstanceId": "",
+	"locale": "en_GB",
+	"editor": "nvim",
+	"api.token": "7c603be0aa8ca8e1adc5cf6607350f398e1d69073df6f91987b00fc1089b5a73730a6b70033f3c75947ee4f494d20f04c98771d7296581026bcd7375d3ac18d4"
+}

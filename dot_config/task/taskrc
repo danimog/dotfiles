@@ -1,0 +1,37 @@
+# [Created by task 3.4.2 2/2/2026 17:24:55]
+data.location=/home/danielemoggia/.task
+news.version=3.4.2
+
+# To use the default location of the XDG directories,
+# move this configuration file from ~/.taskrc to ~/.config/task/taskrc and update location config as follows:
+
+#data.location=~/.local/share/task
+#hooks.location=~/.config/task/hooks
+
+# Color theme (uncomment one to use)
+#include light-16.theme
+#include light-256.theme
+#include bubblegum-256.theme
+#include dark-16.theme
+#include dark-256.theme
+#include dark-red-256.theme
+#include dark-green-256.theme
+#include dark-blue-256.theme
+#include dark-violets-256.theme
+#include dark-yellow-green.theme
+#include dark-gray-256.theme
+#include dark-gray-blue-256.theme
+include solarized-dark-256.theme
+#include solarized-light-256.theme
+#include no-color.theme
+
+#sync.taskchampion.url=http:\/\/danimogmypi.ddns.net:8080
+#sync.taskchampion.token=e7e8101f10cbc4f0388ad60022e85a138baef5b4dfee954b5cc4fca3c61a44da
+#sync.taskchampion.allow-insecure=true
+#sync.backend=taskchampion
+#sync.enabled=true
+taskd.server=217.154.19.137:53589
+taskd.credential=danitask\/daniele\/0ee83eae-63b9-47d9-ad3b-6524d939ddd0
+taskd.ca=\/home\/danielemoggia\/.task\/ca.cert.pem
+taskd.certificate=\/home\/danielemoggia\/.task\/client.cert.pem
+taskd.key=\/home\/danielemoggia\/.task\/client.key.pem

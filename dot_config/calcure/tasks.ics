@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//task2ics//EN
+BEGIN:VTODO
+UID:49ad5378-9608-4d3b-a618-35ae64e936af
+SUMMARY:Portale GIS mediante db PostGIS
+STATUS:NEEDS-ACTION
+END:VTODO
+BEGIN:VTODO
+UID:f97c12da-31a6-443a-8c94-452cb5f7db1c
+SUMMARY:Cambio wiki con aggiornamento server e integrazione xwiki con nextcloud
+STATUS:NEEDS-ACTION
+END:VTODO
+BEGIN:VTODO
+UID:0bb73e82-22b2-44a5-a0a3-c9f36a48be30
+SUMMARY:Installare su arch task
+STATUS:NEEDS-ACTION
+END:VTODO
+BEGIN:VTODO
+UID:70048d06-4134-4c25-9d0f-b190079810e3
+SUMMARY:Automazione email per telecamere offline nel week end
+STATUS:NEEDS-ACTION
+END:VTODO
+BEGIN:VTODO
+UID:1bf1fe53-0baf-4357-b6cf-20fb3805d8d3
+SUMMARY:Valutare installazione di Univention al posto di active directory di Microsoft vedere duck.ai per riferimenti
+STATUS:NEEDS-ACTION
+END:VTODO
+BEGIN:VTODO
+UID:2d273099-84b1-409c-b41c-19e0bdbe58e5
+SUMMARY:software per leggere i dati di Aedilis
+STATUS:NEEDS-ACTION
+END:VTODO
+BEGIN:VTODO
+UID:15998c56-800f-475d-8418-26aa2d296a7b
+SUMMARY:controllo della rete 60 e connessione al sito soluz: connettersi tramite DNS esterno
+STATUS:NEEDS-ACTION
+END:VTODO
+BEGIN:VTODO
+UID:e83b7a61-ab01-4ace-a840-6e65cb9f51c6
+SUMMARY:Controllo backup switch dato il cambio password degli stessi
+STATUS:NEEDS-ACTION
+END:VTODO
+BEGIN:VTODO
+UID:ecea1de4-f81a-4fd5-bb6d-585c587f16dc
+SUMMARY:software per la formazione
+STATUS:NEEDS-ACTION
+END:VTODO
+END:VCALENDAR

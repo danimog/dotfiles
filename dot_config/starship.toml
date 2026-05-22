@@ -1,0 +1,85 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Replace the '❯' symbol in the prompt with '➜'
+#[character] # The name of the module we are configuring is 'character'
+#success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+# ===============================
+# FORMATO GLOBALE DEL PROMPT
+# ===============================
+format = """
+$custom.ssh_prod\
+$custom.ssh_normal\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+# ===============================
+# MODULO CUSTOM: SSH PROD
+# ===============================
+[custom.ssh_prod]
+# Visibile solo se variabile SSH_ENV=prod
+when = 'test "$SSH_ENV" = "prod"'
+# Comando per stampare user@hostname (IP)
+command = 'echo "$USER@$(hostname) ($SSH_IP)"'
+# Simbolo e stile
+symbol = "🔥 "
+style = "bold red"
+# Formattazione finale
+format = "[$symbol$output]($style) "
+
+# ===============================
+# MODULO CUSTOM: SSH NORMALE
+# ===============================
+[custom.ssh_normal]
+# Visibile solo se variabile SSH_ENV=ssh
+when = 'test "$SSH_ENV" = "ssh"'
+command = 'echo "$USER@$(hostname) ($SSH_IP)"'
+symbol = "🌐 "
+style = "bold yellow"
+format = "[$symbol$output]($style) "
+
+# ===============================
+# DIRECTORY (di default)
+# ===============================
+[directory]
+style = "cyan"
+truncation_length = 3
+truncate_to_repo = false
+
+# ===============================
+# GIT BRANCH E STATUS
+# ===============================
+[git_branch]
+symbol = " "
+style = "bold purple"
+
+[git_status]
+style = "bold red"
+
+# ===============================
+# CARATTERE PROMPT
+# ===============================
+[character]
+success_symbol = "❯"
+error_symbol = "✗"
+vicmd_symbol = "❮"
+style_success = "green"
+style_failure = "red"
+style_vicmd = "blue"
+
+[hostname]
+ssh_only = true
+format = "[$hostname]($style)"
+style = "bold red"
+
