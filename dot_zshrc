@@ -119,6 +119,8 @@ fortune | cowsay
 
 alias calcure='task2ics.py > ~/.config/calcure/tasks.ics && calcure'
 
+alias tt="taskwarrior-tui" 
+
 # Inizializza Starship
 eval "$(starship init zsh)"
 
@@ -162,3 +164,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Created by `pipx` on 2026-05-07 10:42:36
 export PATH="$PATH:/home/danielemoggia/.local/bin"
+source ~/powerlevel10k/powerlevel10k.zsh-theme
