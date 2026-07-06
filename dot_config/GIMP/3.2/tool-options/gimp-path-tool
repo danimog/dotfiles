@@ -5,7 +5,7 @@
 (brush "2. Hardness 100")
 (dynamics "Pressure Size")
 (pattern "Pine")
-(gradient "FG to BG (RGB)")
-(palette "Color History")
+(gradient "Standard")
+(palette "Standard")
 
 # end of gimp-path-tool options

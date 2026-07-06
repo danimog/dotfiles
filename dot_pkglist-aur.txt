@@ -3,11 +3,13 @@ brother-mfc-l2710dw
 calcure
 forticlient-vpn
 grimblast-git
-joplin
 kvantum-theme-catppuccin-git
 nerdfetch
 onlyoffice-bin
 openwebstart-bin
+paru
+paru-debug
+proton-drive-cli-bin
 rarian
 rustdesk
 tofi

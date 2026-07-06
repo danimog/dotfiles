@@ -2,7 +2,7 @@
 
 (foreground
     (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0))
-(palette "Color History")
+(palette "Standard")
 (font "Sans-serif")
 
 # end of gimp-text-tool options

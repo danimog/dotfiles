@@ -4,7 +4,7 @@
     (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0))
 (brush "2. Hardness 100")
 (dynamics "Pressure Size")
-(palette "Color History")
+(palette "Standard")
 (brush-size 51)
 
 # end of gimp-dodge-burn-tool options

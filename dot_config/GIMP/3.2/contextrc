@@ -1,15 +1,15 @@
 # GIMP user context
 
-(tool "gimp-mypaint-brush-tool")
-(paint-info "gimp-mybrush")
+(tool "gimp-rect-select-tool")
+(paint-info "gimp-paintbrush")
 (foreground
     (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0))
 (brush "2. Hardness 100")
 (dynamics "Pressure Size")
 (mybrush "2B pencil")
 (pattern "Pine")
-(gradient "FG to BG (RGB)")
-(palette "Color History")
+(gradient "Standard")
+(palette "Standard")
 (font "Sans-serif")
 (tool-preset "Core Pointer")
 
