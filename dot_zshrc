@@ -79,9 +79,14 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions )
-
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-eza chezmoi fzf history sudo web-search dirhistory)
 source $ZSH/oh-my-zsh.sh
+
+eza_params=(
+  '--git' '--icons' '--group' '--group-directories-first'
+  '--time-style=long-iso' '--color-scale=all'
+)
+
 
 # User configuration
 
@@ -145,6 +150,17 @@ garysh() {
     
     # Connetti via SSH
     ssh gary@$1 "${@:2}"
+}
+
+# Funzione SSH personalizzata per utente informatica (server 210.84 - 210.86) 
+infosh() {
+    if [ -z "$1" ]; then
+        echo "Uso: infosh <indirizzo_ip> [opzioni]"
+        return 1
+    fi
+    
+    # Connetti via SSH
+    ssh informatica@$1 "${@:2}"
 }
 
 latr() {

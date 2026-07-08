@@ -22,6 +22,7 @@ electron38
 eza
 fd
 firefox
+foliate
 fortune-mod
 freerdp
 fzf
