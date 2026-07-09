@@ -11,6 +11,7 @@ calcurse
 chezmoi
 cliphist
 cowsay
+croc
 cups
 cups-pdf
 davfs2

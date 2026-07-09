@@ -79,7 +79,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-eza chezmoi fzf history sudo web-search dirhistory)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-eza chezmoi fzf history sudo web-search dirhistory taskwarrior)
 source $ZSH/oh-my-zsh.sh
 
 eza_params=(
@@ -177,7 +177,7 @@ shutdown() {
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
+export PATH="$HOME/bin:$PATH"
 # Created by `pipx` on 2026-05-07 10:42:36
 export PATH="$PATH:/home/danielemoggia/.local/bin"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
