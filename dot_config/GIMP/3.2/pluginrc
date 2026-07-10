@@ -5030,6 +5030,23 @@
         (proc-arg 1 "GParamInt" "gint" "grid-size" "_Griglia" "Griglia" 3 1 200 10)
         (proc-arg 5 "GParamBoolean" "gboolean" "ignore-bottom-layer" "_Ignora il livello inferiore anche se visibile" "Ignora il livello inferiore anche se visibile" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "use-bottom-layer" "_Usa il livello inferiore (invisibile) come base" "Usa il livello inferiore (invisibile) come base" 3 0)))
+(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-gjs.js" 1776419047
+    (proc-def "plug-in-goat-exercise-gjs" 1
+         "Esempio di plugin in JavaScript (GJS)"
+         "Esempio di plugin in JavaScript (GJS)"
+         "Jehan"
+         "Jehan"
+         "2019"
+         "Esempio di plugin in _JavaScript"
+         1
+        (menu-path "<Image>/Filters/Development/Plug-In Examples")
+        (icon icon-name -1 "gimp-gegl")
+         "*"
+         1
+         3 0
+        (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
+        (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
+        (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
 (plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-py3.py" 1776419047
     (proc-def "plug-in-goat-exercise-python" 1
          "Esempio di plugin in Python 3"
