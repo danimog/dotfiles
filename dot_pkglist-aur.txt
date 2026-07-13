@@ -4,6 +4,7 @@ calcure
 forticlient-vpn
 grimblast-git
 kvantum-theme-catppuccin-git
+n8n
 nerdfetch
 onlyoffice-bin
 openwebstart-bin
