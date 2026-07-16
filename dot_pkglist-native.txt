@@ -29,6 +29,7 @@ freerdp
 fzf
 gimp
 git
+github-cli
 grub
 gtk-vnc
 gvfs-smb
@@ -67,6 +68,7 @@ nwg-look
 obs-studio
 openbsd-netcat
 openfortivpn
+openldap
 openssh
 pamixer
 pandoc-cli
