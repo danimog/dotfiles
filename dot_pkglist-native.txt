@@ -49,6 +49,7 @@ kitty
 kvantum
 kwallet
 less
+lftp
 libreoffice-fresh
 libvips
 libvncserver

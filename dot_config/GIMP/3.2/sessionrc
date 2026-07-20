@@ -85,7 +85,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
     (position 0 0)
-    (size 955 985)
+    (size 874 985)
     (monitor 0))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
