@@ -17,9 +17,7 @@ cups-pdf
 davfs2
 docker
 docker-compose
-dunst
 efibootmgr
-electron38
 eza
 fd
 firefox
@@ -98,6 +96,7 @@ spice-gtk
 starship
 sudo
 swaybg
+swaync
 task
 taskwarrior-tui
 tcpdump
@@ -131,3 +130,4 @@ yazi
 zoxide
 zram-generator
 zsh
+zsh-completions

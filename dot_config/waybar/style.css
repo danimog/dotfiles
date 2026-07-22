@@ -122,3 +122,38 @@ window#waybar {
     margin-right: 10px;
 }
 
+#custom-taskwarrior {
+    padding: 0 8px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #cdd6f4;            /* colore neutro di default */
+}
+
+#custom-taskwarrior.high-priority {
+    color: #ffb700;
+    background-color: rgba(255, 183, 0, 0.15);
+    border-radius: 4px;
+}
+
+#custom-taskwarrior.normal {
+    color: #cdd6f4;
+}
+
+#custom-power {
+    color: #ff5555; /* Scegli il colore del tuo tema (es. Rosso) */
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+#custom-power:hover {
+    color: #ff79c6; /* Colore al passaggio del mouse */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+
+#custom-notification {
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 16px;
+}

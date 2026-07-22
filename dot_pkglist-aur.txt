@@ -1,6 +1,7 @@
 brave-bin
 brother-mfc-l2710dw
 calcure
+electron38
 forticlient-vpn
 grimblast-git
 kvantum-theme-catppuccin-git
@@ -19,5 +20,4 @@ visual-studio-code-bin
 webkit2gtk
 wlogout
 yay
-yay-debug
 zoiper-bin
