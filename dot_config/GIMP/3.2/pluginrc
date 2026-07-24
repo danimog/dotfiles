@@ -6,7 +6,7 @@
 (protocol-version 279)
 (file-version 15)
 
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/web-browser/web-browser" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/web-browser/web-browser" 1783323131
     (proc-def "plug-in-web-browser" 1
          "Open an URL in the user specified web browser"
          "Opens the given URL in the user specified web browser."
@@ -20,7 +20,7 @@
          2147483647
          1 0
         (proc-arg 7 "GParamString" "gchararray" "url" "URL" "URL to open" 3 "https://www.gimp.org/")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/wavelet-decompose/wavelet-decompose" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/wavelet-decompose/wavelet-decompose" 1783323131
     (proc-def "plug-in-wavelet-decompose" 1
          "Scomposizione Wavelet"
          "Compute and render wavelet scales"
@@ -40,7 +40,7 @@
         (proc-arg 1 "GParamInt" "gint" "scales" "Placch_e" "Numero di placche" 3 1 7 5)
         (proc-arg 5 "GParamBoolean" "gboolean" "create-group" "Crea un gruppo _di livelli per memorizzare la scomposizione" "Crea un gruppo di livelli per memorizzare la scomposizione" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "create-masks" "_Aggiungi una maschera di livello per ogni livello placche" "Aggiungi una maschera di livello per ogni livello placche" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/warp/warp" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/warp/warp" 1783323131
     (proc-def "plug-in-warp" 1
          "Torce o spalma l'immagine in molti modi differenti"
          "Spalma un'immagine lungo percorsi vettoriali calcolati come il gradiente di una matrice di controllo separata. In alcuni casi l'effetto può assomigliare a pennellate di pittura acrilica o ad acquerello."
@@ -71,7 +71,7 @@
         (proc-arg 9 "GimpParamDrawable" "GimpDrawable" "vector-map" "Mappa _vettoriale" "Mappa di controllo vettoriale fissa" 3 1)
         (proc-arg 6 "GParamDouble" "gdouble" "vector-scale" "Magnitud_ine vettore" "Fattore di scala per la mappa vettoriale fissa (0=non usare)" 3 -1.7976931348623157e+308 1.7976931348623157e+308 0)
         (proc-arg 6 "GParamDouble" "gdouble" "vector-angle" "Ango_lo" "Angolo per la mappa vettoriale fissa" 3 0 360 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/van-gogh-lic/van-gogh-lic" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/van-gogh-lic/van-gogh-lic" 1783323131
     (proc-def "plug-in-lic" 1
          "Effetti speciali che nessuno capisce"
          "No help yet"
@@ -97,7 +97,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "integration-steps" "Passi di inte_grazione" "Passi di integrazione" 3 1 40 25)
         (proc-arg 6 "GParamDouble" "gdouble" "min-value" "V_alore minimo" "Valore minimo" 3 -100 0 -25)
         (proc-arg 6 "GParamDouble" "gdouble" "max-value" "Valore _massimo" "Valore massimo" 3 0 100 25)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/unit-editor/unit-editor" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/unit-editor/unit-editor" 1783323131
     (proc-def "plug-in-unit-editor" 1
          "Crea o modifica le unità usate in GIMP"
          "The GIMP unit editor"
@@ -112,7 +112,7 @@
          2147483647
          1 0
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/tile-small/tile-small" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/tile-small/tile-small" 1783323131
     (proc-def "plug-in-small-tiles" 1
          "Affianca l'immagine con versioni più piccole dell'originale"
          "More here later"
@@ -130,7 +130,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 1 "GParamInt" "gint" "num-tiles" "_n²" "Numero di piastrelle da creare" 3 2 6 2)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/tile/tile" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/tile/tile" 1783323131
     (proc-def "plug-in-tile" 1
          "Crea un insieme di copie dell'immagine"
          "This function creates a new image with a single layer sized to the specified 'new_width' and 'new_height' parameters. The specified drawable is tiled into this layer.  The new layer will have the same type as the specified drawable and the new image will have a corresponding base type."
@@ -152,7 +152,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "new-image" "Nuova immagine" "Crea una nuova immagine" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "new-image" "New image" "Output image (NULL if new-image == FALSE)" 3 1)
         (proc-arg 9 "GimpParamLayer" "GimpLayer" "new-layer" "New layer" "Output layer (NULL if new-image == FALSE)" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/test-sphere-v3/test-sphere-v3.scm" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/test-sphere-v3/test-sphere-v3.scm" 1783323131
     (proc-def "script-fu-test-sphere-v3" 1
          "Esempio plugin in Scheme"
          ""
@@ -192,7 +192,7 @@
         (proc-arg 9 "GimpParamChannel" "GimpChannel" "channel" "Channel" "Channel" 3 1)
         (proc-arg 9 "GimpParamDrawable" "GimpDrawable" "drawable" "Drawable" "Drawable" 3 1)
         (proc-arg 9 "GimpParamPath" "GimpPath" "vectors" "Vectors" "Vectors" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/spyro-plus/spyro-plus.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/spyro-plus/spyro-plus.py" 1783323131
     (proc-def "plug-in-spyrogimp" 1
          "Disegna spirogrammi usando le impostazioni dello strumento e la selezione correnti."
          "Usa le impostazioni dello strumento correnti per disegnare motivi spirografici. La dimensione e la posizione del motivo dipendono dalla selezione corrente."
@@ -222,7 +222,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "shape-rotation" "_Rotazione" "Rotazione forma della rotella fissa, in gradi." 3 -360 360 0)
         (proc-arg 4 "GimpParamChoice" "gchararray" "tool" "Strumento" "Strumento" 3 "preview" 7 "preview" 0 "Anteprima" "" "paintbrush" 1 "Pennello" "" "pencil" 2 "Matita" "" "airbrush" 3 "Aerografo" "" "stroke" 4 "Tratto" "" "ink" 5 "Inchiostro" "" "mypaintbrush" 6 "Pennello MyPaint" "")
         (proc-arg 5 "GParamBoolean" "gboolean" "long-gradient" "_Gradiente lungo" "Se applicare un gradiente lungo per adattarlo alla lunghezza del motivo. Applicabile solo ad alcuni strumenti." 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/sphere-designer/sphere-designer" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/sphere-designer/sphere-designer" 1783323131
     (proc-def "plug-in-spheredesigner" 1
          "Crea un'immagine di una sfera con texture"
          "This plug-in can be used to create textured and/or bumpmapped spheres, and uses a small lightweight raytracer to perform the task with good quality"
@@ -239,7 +239,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/sparkle/sparkle" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/sparkle/sparkle" 1783323131
     (proc-def "plug-in-sparkle" 1
          "Converte le macchie di luce in scintille appuntite"
          "Usa una soglia di luminosità basata sulla percentuale per trovare i pixel candidati per l'aggiunta di scintillii (punte)."
@@ -269,7 +269,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "inverse" "In_verti" "Eseguire un effetto invertito?" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "border" "Aggiungi _bordo" "Disegna uno scintillio attorno all'immagine" 3 0)
         (proc-arg 4 "GimpParamChoice" "gchararray" "color-type" "Tipo _colore" "Colore delle scintille" 3 "natural-color" 3 "natural-color" 0 "Colore naturale" "" "foreground-color" 1 "Colore di primo piano" "" "background-color" 2 "Colore di sfondo" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/smooth-palette/smooth-palette" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/smooth-palette/smooth-palette" 1783323131
     (proc-def "plug-in-smooth-palette" 1
          "Ricava una tavolozza di sfumature di colore dall'immagine"
          "help!"
@@ -292,7 +292,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "show-image" "Mostra immagine" "Mostra immagine" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "new-image" "Nuova immagine" "Immagine in uscita" 3 0)
         (proc-arg 9 "GimpParamLayer" "GimpLayer" "new-layer" "Nuovo livello" "Livello risultante" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/selection-to-path/selection-to-path" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/selection-to-path/selection-to-path" 1783323131
     (proc-def "plug-in-sel2path" 1
          "Converte una selezione in un tracciato"
          "Converte una selezione in un tracciato"
@@ -328,7 +328,7 @@
         (proc-arg 1 "GParamInt" "gint" "subdivide-surround" "Intorno su_ddivisione" "Numero di punti da considerare quando si decide se un dato punto è un migliore punto di suddivisione." 3 2 10 4)
         (proc-arg 6 "GParamDouble" "gdouble" "subdivide-threshold" "Soglia suddi_visione" "Di quanti pixel un punto può divergere da una linea retta ed essere ancora considerato un miglior punto di suddivisione." 3 0.01 1 0.029999999999999999)
         (proc-arg 1 "GParamInt" "gint" "tangent-surround" "Intorno _tangente" "Numero di punti da osservare da entrambi i lati quando si calcola l'approssimazione della tangente a quel punto." 3 2 10 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/script-fu-server/script-fu-server" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/script-fu-server/script-fu-server" 1783323131
     (proc-def "plug-in-script-fu-server" 1
          "Server per le operazioni Script-Fu remote"
          "Provides a server for remote script-fu operation. NOTE that for security reasons this procedure's API was changed in an incompatible way since GIMP 2.8.12. You now have to pass the IP to listen on as first parameter. Calling this procedure with the old API will fail on purpose."
@@ -346,7 +346,7 @@
         (proc-arg 7 "GParamString" "gchararray" "ip" "IP" "The IP on which to listen for requests" 3 "")
         (proc-arg 1 "GParamInt" "gint" "port" "Port" "The port on which to listen for requests" 3 0 2147483647 0)
         (proc-arg 7 "GParamString" "gchararray" "logfile" "Log File" "The file to log activity to" 3 "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/script-fu/script-fu" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/script-fu/script-fu" 1783323131
     (proc-def "extension-script-fu" 2
          "A scheme interpreter for scripting GIMP operations"
          "More help here later"
@@ -401,7 +401,7 @@
          2 0
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 7 "GParamString" "gchararray" "script" "Batch commands in the target language" "Batch commands in the target language, which will be run by the interpreter" 3 "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/screenshot/screenshot" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/screenshot/screenshot" 1783323131
     (proc-def "plug-in-screenshot" 1
          "Crea un'immagine da un'area dello schermo"
          "The plug-in takes screenshots of an interactively selected window or of the desktop, either the whole desktop or an interactively selected region. When called non-interactively, it may grab the root window or use the window-id passed as a parameter.  The last four parameters are optional and can be used to specify the corners of the region to be grabbed.On Mac OS X, when called non-interactively, the plug-inonly can take screenshots of the entire root window.Grabbing a window or a region is not supportednon-interactively. To grab a region or a particularwindow, you need to use the interactive mode."
@@ -424,7 +424,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "include-pointer" "Includi il puntatore del _mouse" "Il puntatore mouse farà parte dell'immagine" 3 0)
         (proc-arg 4 "GimpParamChoice" "gchararray" "color-profile" "_Profilo colore" "" 3 "monitor" 2 "monitor" 0 "Marca immagine con il profilo del monitor" "" "srgb" 1 "Converti immagine sRGB" "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/sample-colorize/sample-colorize" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/sample-colorize/sample-colorize" 1783323131
     (proc-def "plug-in-sample-colorize" 1
          "Colora l'immagine usando un campione come modello"
          "This plug-in colorizes the contents of the specified (gray) layer with the help of a  sample (color) layer. It analyzes all colors in the sample layer. The sample colors are sorted by brightness (== intensity) and amount and stored in a sample colortable (where brightness is the index) The pixels of the destination layer are remapped with the help of the sample colortable. If use_subcolors is TRUE, the remapping process uses all sample colors of the corresponding brightness-intensity and distributes the subcolors according to their amount in the sample (If the sample has 5 green, 3 yellow, and 1 red pixel of the  intensity value 105, the destination pixels at intensity value 105 are randomly painted in green, yellow and red in a relation of 5:3:1 If use_subcolors is FALSE only one sample color per intensity is used. (green will be used in this example) The brightness intensity value is transformed at the remapping process according to the levels: out_lo, out_hi, in_lo, in_high and gamma The in_low / in_high levels specify an initial mapping of the intensity. The gamma value determines how intensities are interpolated between the in_lo and in_high levels. A gamma value of 1.0 results in linear interpolation. Higher gamma values results in more high-level intensities Lower gamma values results in more low-level intensities The out_low/out_high levels constrain the resulting intensity index The intensity index is used to pick the corresponding color in the sample colortable. If hold_inten is FALSE the picked color is used 1:1 as resulting remap_color. If hold_inten is TRUE The brightness of the picked color is adjusted back to the original intensity value (only hue and saturation are taken from the picked sample color) (or to the input level, if orig_inten is set FALSE) Works on both Grayscale and RGB image with/without alpha channel. (the image with the dst_drawable is converted to RGB if necessary) The sample_drawable should be of type RGB or RGBA"
@@ -451,7 +451,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "gamma" "Ga_mma" "Fattore di regolazione gamma, 1.0 è lineare" 3 0.10000000000000001 10 1)
         (proc-arg 1 "GParamInt" "gint" "out-low" "Ba_sso" "Intensità del colore del campione più bassa" 3 0 254 0)
         (proc-arg 1 "GParamInt" "gint" "out-high" "Al_to" "Intensità del colore del campione più alta" 3 1 255 255)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/qbist/qbist" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/qbist/qbist" 1783323131
     (proc-def "plug-in-qbist" 1
          "Genera una grande varietà di motivi astratti"
          "Questo plug-in si basa su un articolo di Jörn Loviscach (apparso in c't 10/95, pagina 326). Genera immagini d'arte moderna da una formula genetica casuale."
@@ -469,7 +469,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 5 "GParamBoolean" "gboolean" "anti-aliasing" "_Antialiasing" "Abilita l'anti-aliasing utilizzando un algoritmo di sovracampionamento" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/python-eval/python-eval.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/python-eval/python-eval.py" 1783323131
     (proc-def "python-fu-eval" 1
          "Evaluate Python code"
          "Evaluate python code under the python interpreter (primarily for batch mode)"
@@ -485,7 +485,7 @@
          2 0
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 7 "GParamString" "gchararray" "script" "Batch commands in the target language" "Batch commands in the target language, which will be run by the interpreter" 3 "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/python-console/python-console.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/python-console/python-console.py" 1783323131
     (proc-def "python-fu-console" 1
          "Interprete interattivo Python di GIMP"
          "Batti i comandi e osserva i risultati"
@@ -500,7 +500,7 @@
          2147483647
          1 0
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Modalità esecuzione" "La modalità esecuzione" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/procedure-browser/procedure-browser" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/procedure-browser/procedure-browser" 1783323131
     (proc-def "plug-in-dbbrowser" 1
          "Elenca le procedure disponibili nel DBP"
          ""
@@ -515,7 +515,7 @@
          2147483647
          1 0
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/print/print" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/print/print" 1783323131
     (proc-def "file-print-gtk" 1
          "Stampa l'immagine"
          "Print the image using the GTK+ Print API."
@@ -532,7 +532,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/plugin-browser/plugin-browser" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/plugin-browser/plugin-browser" 1783323131
     (proc-def "plug-in-plug-in-details" 1
          "Mostra le informazioni sui plug-in"
          "Consente di sfogliare il sistema di menu dei plug-in. È possibile cercare i nomi dei plug-in, ordinarli per nome o posizione del menu e visualizzare una rappresentazione ad albero dei menu dei plug-in. Può anche essere di aiuto per scoprire dove si sono installati i nuovi plug-in nei menu."
@@ -547,7 +547,7 @@
          2147483647
          1 0
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/palette-to-gradient/palette-to-gradient.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/palette-to-gradient/palette-to-gradient.py" 1783323131
     (proc-def "python-fu-palette-to-gradient" 1
          "Crea un gradiente usando i colori della tavolozza"
          "Crea un nuovo gradiente usando i colori della tavolozza."
@@ -580,7 +580,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Modalità esecuzione" "La modalità esecuzione" 3 1)
         (proc-arg 12 "GimpParamPalette" "GimpPalette" "palette" "_Tavolozza" "Tavolozza" 3 1 1 0)
         (proc-arg 12 "GimpParamGradient" "GimpGradient" "new-gradient" "Il gradiente appena creato" "Il gradiente appena creato" 3 1 0 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/palette-sort/palette-sort.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/palette-sort/palette-sort.py" 1783323131
     (proc-def "python-fu-palette-sort" 1
          "Ordina i colori in una tavolozza"
          "\nSorts a palette, or part of a palette.\nSorts the given palette when it is editable, otherwise creates a new sorted palette.\nThe default is a 1D sort, but you can also sort over two color channels\nor create a 2D sorted palette with sorted rows.\nYou can optionally install colormath (https://pypi.python.org/pypi/colormath/1.0.8)\nto GIMP's Python to get even more channels to choose from.\n"
@@ -606,7 +606,7 @@
         (proc-arg 4 "GimpParamChoice" "gchararray" "pchannel" "Canale partizionam_ento" "Canale partizionamento" 3 "luma" 16 "red" 0 "Rosso" "" "green" 1 "Verde" "" "blue" 2 "Blu" "" "luma" 3 "Luma (Y)" "" "hue" 4 "Tonalità" "" "saturation" 5 "Saturazione" "" "value" 6 "Valore" "" "saturation-hsl" 7 "Saturazione (HSL)" "" "lightness-hsl" 8 "Luminosità (HSL)" "" "index" 9 "Indice" "" "random" 10 "Casuale" "" "lightness-lab" 11 "Luminosità (LAB)" "" "a-color" 12 "Colore-A" "" "b-color" 13 "Colore-B" "" "chroma-lchab" 14 "Croma (LCHab)" "" "hue-lchab" 15 "Tonalità (LCHab)" "")
         (proc-arg 6 "GParamDouble" "gdouble" "pquantize" "Q_uantizzazione partizione" "Quantizzazione partizione" 3 0 1 0)
         (proc-arg 12 "GimpParamPalette" "GimpPalette" "new-palette" "Tavolozza" "Tavolozza" 3 1 0 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/palette-offset/palette-offset.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/palette-offset/palette-offset.py" 1783323131
     (proc-def "python-fu-palette-offset" 1
          "Sposta i colori di una tavolozza"
          "\nOffset the colors in the palette.\nOffsets and returns the given palette when it is editable,\notherwise copies the given palette and returns it.\n"
@@ -624,7 +624,7 @@
         (proc-arg 12 "GimpParamPalette" "GimpPalette" "palette" "_Tavolozza" "Tavolozza" 3 1 1 0)
         (proc-arg 1 "GParamInt" "gint" "amount" "_Spostamento" "Spostamento" 3 1 2147483647 1)
         (proc-arg 12 "GimpParamPalette" "GimpPalette" "new-palette" "La tavolozza modificata" "La tavolozza appena creata quando è in sola lettura, altrimenti la tavolozza in ingresso" 3 1 0 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/palette-export-as-kpl/palette-export-as-kpl.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/palette-export-as-kpl/palette-export-as-kpl.py" 1783323131
     (proc-def "python-fu-palette-export-as-kpl" 1
          "Esporta tavolozza come .kpl Krita"
          "Esporta tavolozza come .kpl Krita"
@@ -643,7 +643,7 @@
         (proc-arg 13 "GimpParamFile" "GFile" "file" "_File (.kpl)" "" 3 1 0 "")
         (proc-arg 7 "GParamString" "gchararray" "comment" "Commen_to" "Commento opzionale" 3 "")
         (proc-arg 5 "GParamBoolean" "gboolean" "read-only" "Sol_a lettura" "La tavolozza verrà bloccata all'importazione" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/pagecurl/pagecurl" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/pagecurl/pagecurl" 1783323131
     (proc-def "plug-in-pagecurl" 1
          "Piega uno degli angoli dell'immagine"
          "This plug-in creates a pagecurl-effect."
@@ -666,7 +666,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "shade" "Ombr_a" "Ombra della parte sotto il ricciolo" 3 1)
         (proc-arg 6 "GParamDouble" "gdouble" "opacity" "Opaci_tà" "Opacità" 3 0 1 0)
         (proc-arg 9 "GimpParamLayer" "GimpLayer" "curl-layer" "Curl layer" "The new layer with the curl." 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/nl-filter/nl-filter" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/nl-filter/nl-filter" 1783323131
     (proc-def "plug-in-nl-filter" 1
          "Filtro non lineare multiuso"
          "Il compositore di posta elettronica preferito viene utilizzato per inviare e-mail e deve essere configurato correttamente.<"
@@ -686,7 +686,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "alpha" "_Alfa" "La quantità di filtro da applicare" 3 0 1 0.29999999999999999)
         (proc-arg 6 "GParamDouble" "gdouble" "radius" "Ra_ggio" "Il raggio del filtro" 3 0.33333333333333331 1 0.33333333333333331)
         (proc-arg 4 "GimpParamChoice" "gchararray" "filter" "_Filtro" "Il filtro da eseguire" 3 "alpha-trim" 3 "alpha-trim" 0 "Media limitata da alfa" "" "optimal-estimation" 1 "Stima ottimale" "" "edge-enhancement" 2 "Miglioramento bordi" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/metadata-viewer/metadata-viewer" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/metadata-viewer/metadata-viewer" 1783323131
     (proc-def "plug-in-metadata-viewer" 1
          "Visualizza i metadati (EXIF, IPTC, XMP)"
          "View metadata information attached to the current image. This can include Exif, IPTC and/or XMP information."
@@ -703,7 +703,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/metadata-editor/metadata-editor" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/metadata-editor/metadata-editor" 1783323131
     (proc-def "plug-in-metadata-editor" 1
          "Modifica i metadati (IPTC, EXIF, XMP)"
          "Edit metadata information attached to the current image. Some or all of this metadata will be saved in the file, depending on the output file format."
@@ -721,7 +721,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 0 "GParamBoxed" "GBytes" "parent-handle" "Appiglio finestra genitore" "L'appiglio opaco della finestra su cui posizionare la temporanea finestra di dialogo di questo plug-in" 515)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/map-object/map-object" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/map-object/map-object" 1783323131
     (proc-def "plug-in-map-object" 1
          "Mappa l'immagine su di un oggetto (piano, sfera, cubo o cilindro)"
          "No help yet"
@@ -788,9 +788,9 @@
         (proc-arg 9 "GimpParamDrawable" "GimpDrawable" "cyl-bottom-drawable" "_Fondo" "Faccia inferiore cilindro (impostare a NULL se non usata)" 3 1)
         (proc-arg 6 "GParamDouble" "gdouble" "cylinder-radius" "Raggi_o" "Raggio cilindro" 3 0 1.7976931348623157e+308 0.25)
         (proc-arg 6 "GParamDouble" "gdouble" "cylinder-length" "Lunghezza cilin_dro" "Lunghezza cilindro" 3 0 1.7976931348623157e+308 0.25)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/mail/mail" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/mail/mail" 1783323131
     (has-init))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/lighting/lighting" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/lighting/lighting" 1783323131
     (proc-def "plug-in-lighting" 1
          "Applica vari effetti di luce su di un'immagine"
          "No help yet"
@@ -832,7 +832,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "new-image" "Crea nuova imma_gine" "Crea una nuova immagine" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "transparent-background" "Sfondo tras_parente" "Rendi lo sfondo trasparente" 3 0)
         (proc-arg 6 "GParamDouble" "gdouble" "distance" "_Distanza" "Distanza dell'osservatore dalla superficie" 3 0 2 0.25)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/jigsaw/jigsaw" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/jigsaw/jigsaw" 1783323131
     (proc-def "plug-in-jigsaw" 1
          "Aggiunge un motivo a puzzle all'immagine"
          "Aspetto puzzle"
@@ -854,7 +854,7 @@
         (proc-arg 4 "GimpParamChoice" "gchararray" "style" "Stile pu_zzle" "Lo stile/forma del puzzle" 3 "square" 2 "square" 0 "Quadrato" "" "curved" 1 "Curvo" "")
         (proc-arg 1 "GParamInt" "gint" "blend-lines" "_Larghezza fusione" "Grado di decadimento dei contorni di ogni pezzo" 3 0 10 3)
         (proc-arg 6 "GParamDouble" "gdouble" "blend-amount" "E_videnzia" "Quantità di evidenziazione sui contorni di ogni pezzo" 3 0 1 0.5)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/imagemap/imagemap" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/imagemap/imagemap" 1783323131
     (proc-def "plug-in-imagemap" 1
          "Crea una mappa immagine clic-abile"
          ""
@@ -871,7 +871,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/ifs-compose/ifs-compose" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/ifs-compose/ifs-compose" 1783323131
     (proc-def "plug-in-ifscompose" 1
          "Crea un frattale IFS (Iterated Function System)"
          "Interactively create an Iterated Function System fractal. Use the window on the upper left to adjustthe component transformations of the fractal. The operation that is performed is selected by the buttons underneath the window, or from a menu popped up by the right mouse button. The fractal will be rendered with a transparent background if the current image has an alpha channel."
@@ -888,7 +888,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/hot/hot" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/hot/hot" 1783323131
     (proc-def "plug-in-hot" 1
          "Trova e aggiusta i pixel che trova troppo luminosi"
          "hot scans an image for pixels that will give unsave values of chrominance or composite signal amplitude when encoded into an NTSC or PAL signal. Three actions can be performed on these 'hot' pixels. (0) reduce luminance, (1) reduce saturation, or (2) Blacken."
@@ -908,7 +908,7 @@
         (proc-arg 4 "GimpParamChoice" "gchararray" "mode" "_Modalità" "Modalità segnale" 3 "ntsc" 2 "ntsc" 0 "NTSC" "" "pal" 1 "PAL" "")
         (proc-arg 4 "GimpParamChoice" "gchararray" "action" "_Azione" "Azione" 3 "reduce-luminance" 3 "reduce-luminance" 0 "Riduci luminanza" "" "reduce-saturation" 1 "Riduci saturazione" "" "blacken" 2 "Annerisci" "")
         (proc-arg 5 "GParamBoolean" "gboolean" "new-layer" "Crea un _nuovo livello" "Crea nuovo livello" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/histogram-export/histogram-export.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/histogram-export/histogram-export.py" 1783323131
     (proc-def "python-fu-histogram-export" 1
          "Esporta l'istogramma immagine in un file di testo (CSV)"
          "\nExports the image histogram to a text file,\nso that it can be used by other programs\nand loaded into spreadsheets.\n\nThe resulting file is a CSV file (Comma Separated\nValues), which can be imported\ndirectly in most spreadsheet programs.\n\nThe first two columns are the bucket boundaries,\nfollowed by the selected columns. The histogram\nrefers to the selected image area, and\ncan use either Sample Average data or data\nfrom the current drawable only.;\n\nThe output is in \"weighted pixels\" - meaning\nall fully transparent pixels are not counted.\n\nCheck the gimp-histogram call\n"
@@ -929,7 +929,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "bucket-size" "_Dimensione secchiello" "Dimensione secchiello" 3 0.001 1 0.01)
         (proc-arg 5 "GParamBoolean" "gboolean" "sample-average" "Media c_ampione" "Media campione" 3 0)
         (proc-arg 4 "GimpParamChoice" "gchararray" "output-format" "_Formato d'uscita" "Formato d'uscita" 3 "percent" 3 "pixel-count" 0 "Conteggio pixel" "" "normalized" 1 "Normalizzato" "" "percent" 2 "Percentuale" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/help/help" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/help/help" 1783323131
     (proc-def "extension-gimp-help" 2
          ""
          ""
@@ -944,7 +944,7 @@
          2 0
         (proc-arg 0 "GParamBoxed" "GStrv" "domain-names" "Domain Names" "Domain names" 3)
         (proc-arg 0 "GParamBoxed" "GStrv" "domain-uris" "Domain URIs" "Domain URIs" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/guillotine/guillotine" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/guillotine/guillotine" 1783323131
     (proc-def "plug-in-guillotine" 1
          "Divide l'immagine in sottoimmagini usando le guide"
          "This function takes an image and slices it along its guides, creating new images. The original image is not modified."
@@ -962,7 +962,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "images" "Output images" "Output images" 3 "GimpImage")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/grid/grid" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/grid/grid" 1783323131
     (proc-def "plug-in-grid" 1
          "Disegna una griglia sull'immagine"
          "Disegna una griglia usando i colori specificati. L'origine è l'angolo in alto a sinistra."
@@ -991,7 +991,7 @@
         (proc-arg 1 "GParamInt" "gint" "ispace" "Spaziatura intersezione" "Spaziatura intersezione" 3 1 524288 2)
         (proc-arg 1 "GParamInt" "gint" "ioffset" "Scostamento intersezione" "Scostamento intersezione" 3 0 524288 6)
         (proc-arg 8 "GimpParamColor" "GeglColor" "icolor" "Colore intersezione" "Colore intersezione" 3 1 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0" "R'G'B'A float" 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/gradients-save-as-css/gradients-save-as-css.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/gradients-save-as-css/gradients-save-as-css.py" 1783323131
     (proc-def "python-fu-gradient-save-as-css" 1
          "Crea una nuova tavolozza da un dato gradiente"
          "Crea una nuova tavolozza da un dato gradiente"
@@ -1008,7 +1008,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Modalità esecuzione" "La modalità esecuzione" 3 1)
         (proc-arg 12 "GimpParamGradient" "GimpGradient" "gradient" "_Gradiente da usare" "" 3 1 1 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "_File" "" 3 1 0 "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/gradient-map/gradient-map" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/gradient-map/gradient-map" 1783323131
     (proc-def "plug-in-gradmap" 1
          "Ricolora l'immagine usando i colori del gradiente attivo"
          "This plug-in maps the contents of the specified drawable with active gradient. It calculates luminosity of each pixel and replaces the pixel by the sample of active gradient at the position proportional to that luminosity. Complete black pixel becomes the leftmost color of the gradient, and complete white becomes the rightmost. Works on both Grayscale and RGB image with/without alpha channel."
@@ -1041,7 +1041,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/gradient-flare/gradient-flare" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/gradient-flare/gradient-flare" 1783323131
     (proc-def "plug-in-gflare" 1
          "Aggiungi un effetto riflesso di lente usando i gradienti"
          "This plug-in produces a lense flare effect using custom gradients. In interactive call, the user can edit their own favorite lense flare (GFlare) and render it. Edited gflare is saved automatically to the folder in gflare-path, if it is defined in gimprc. In non-interactive call, the user can only render one of GFlare which has been stored in gflare-path already."
@@ -1069,7 +1069,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "use-asupsample" "Sovram_pionamento adattivo" "Usa sovrampionamento adattivo nel rendering" 3 0)
         (proc-arg 1 "GParamInt" "gint" "asupsample-max-depth" "Profondità _max" "Profondità massima per il sovrampionamento adattivo" 3 0 10 3)
         (proc-arg 6 "GParamDouble" "gdouble" "asupsample-threshold" "_Soglia" "Soglia per il sovrampionamento adattivo" 3 0 1 0.20000000000000001)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/gimpressionist/gimpressionist" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/gimpressionist/gimpressionist" 1783323131
     (proc-def "plug-in-gimpressionist" 1
          "Esegue più operazioni artistiche"
          "Esegue varie operazioni artistiche su un'immagine"
@@ -1087,7 +1087,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 7 "GParamString" "gchararray" "preset" "Preimpostazione" "Nome preimpostazione" 3 "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/gfig/gfig" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/gfig/gfig" 1783323131
     (proc-def "plug-in-gfig" 1
          "Crea forme geometriche"
          "Draw Vector Graphics and paint them onto your images. Gfig allows you to draw many types of objects including Lines, Circles, Ellipses, Curves, Polygons, pointed stars, Bezier curves, and Spirals. Objects can be painted using Brushes or other tools or filled using colors or patterns. Gfig objects can also be used to create selections."
@@ -1104,7 +1104,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/fractal-explorer/fractal-explorer" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/fractal-explorer/fractal-explorer" 1783323131
     (proc-def "plug-in-fractalexplorer" 1
          "Render di arte frattale"
          "No help yet."
@@ -1141,7 +1141,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "blue-invert" "_Inversione" "Modalità inversione del blu" 3 0)
         (proc-arg 1 "GParamInt" "gint" "n-colors" "_Numero di colori" "Numero di colori per la mappatura" 3 2 8192 512)
         (proc-arg 5 "GParamBoolean" "gboolean" "use-loglog-smoothing" "_Usa smussamento loglog" "Usa smussamento log log per eliminare \"le bande\" nel risultato" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/foggify/foggify.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/foggify/foggify.py" 1783323131
     (proc-def "python-fu-foggify" 1
          "Aggiungi un livello di nebbia"
          "Aggiungi un livello di nebbia all'immagine"
@@ -1162,7 +1162,7 @@
         (proc-arg 8 "GimpParamColor" "GeglColor" "color" "Colore _nebbia" "Colore nebbia" 3 1 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0" "RGBA float" 0)
         (proc-arg 6 "GParamDouble" "gdouble" "turbulence" "_Turbolenza" "Turbolenza" 3 0 7 1)
         (proc-arg 6 "GParamDouble" "gdouble" "opacity" "O_pacità" "Opacità" 3 0 100 100)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/flame/flame" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/flame/flame" 1783323131
     (proc-def "plug-in-flame" 1
          "Crea fiamme cosmiche frattali ricorsive"
          "Create cosmic recursive fractal flames"
@@ -1188,7 +1188,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "zoom" "_Zoom" "" 3 -4 4 0)
         (proc-arg 6 "GParamDouble" "gdouble" "x" "_X" "" 3 -2 2 0)
         (proc-arg 6 "GParamDouble" "gdouble" "y" "_Y" "" 3 -2 2 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/filter-browser/filter-browser" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/filter-browser/filter-browser" 1783323131
     (proc-def "plug-in-gegl-filter-browser" 1
          "Visualizza informazioni sulle operazioni GEGL disponibili (ad es., filtri)."
          "Mostra un elenco di tutte le operazioni GEGL, i relativi dettagli e i parametri con cui sono configurate. L'elenco contiene le operazioni fornite da GEGL stesso, GIMP e i plug-in caricati da GEGL."
@@ -1203,7 +1203,7 @@
          2147483647
          1 0
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/film/film" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/film/film" 1783323131
     (proc-def "plug-in-film" 1
          "Combina diverse immagini in una pellicola"
          "Compose several images to a roll film"
@@ -1236,7 +1236,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "hole-spacing" "_Distanza fori" "La distanza tra fori, come frazione dell'altezza pellicola" 3 0 1 0.081000000000000003)
         (proc-arg 6 "GParamDouble" "gdouble" "number-height" "Altezza _numeri" "L'altezza dei numeri disegnati, come frazione dell'altezza pellicola" 3 0 1 0.051999999999999998)
         (proc-arg 9 "GimpParamImage" "GimpImage" "new-image" "New image" "Output image" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-xwd/file-xwd" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-xwd/file-xwd" 1783323131
     (proc-def "file-xwd-load" 1
          "Loads files in the XWD (X Window Dump) format"
          "Loads files in the XWD (X Window Dump) format. XWD image files are produced by the program xwd. Xwd is an X Window System window dumping utility."
@@ -1276,7 +1276,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-xpm/file-xpm" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-xpm/file-xpm" 1783323131
     (proc-def "file-xpm-load" 1
          "Carica file in formato immagine XPM (Pixmap X11)"
          "Carica file in formato XPM (Pixmap X11). XPM è un formato di immagine portatile progettato per essere incluso nel codice sorgente C. XLib fornisce funzioni per leggere questo formato. Il codice più recente dovrebbe tuttavia usare gdk-pixbuf-csource. XPM supporta immagini colorate, a differenza del formato XBM che XPM è stato progettato per sostituire."
@@ -1316,7 +1316,7 @@
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 1 "GParamInt" "gint" "threshold" "_Soglia" "Soglia alfa" 3 0 255 127)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-xmc/file-xmc" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-xmc/file-xmc" 1783323131
     (proc-def "file-xmc-load-thumb" 1
          "Carica solo il primo quadro della sequenza di animazione del puntatore mouse X11 la cui dimensione nominale è la più vicina alla dimensione miniatura da usare"
          ""
@@ -1385,7 +1385,7 @@
         (proc-arg 7 "GParamString" "gchararray" "xmc-copyright" "C_opyright" "Informazioni di Copyright" 3 "")
         (proc-arg 7 "GParamString" "gchararray" "xmc-license" "Lice_nza" "Informazioni di licenza" 3 "")
         (proc-arg 7 "GParamString" "gchararray" "gimp-comment" "Co_mmento" "Commento opzionale" 3 "Created with GIMP")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-xbm/file-xbm" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-xbm/file-xbm" 1783323131
     (proc-def "file-xbm-load" 1
          "Carica file in formato bitmap X10 o X11 (XBM)"
          "Caricare un file in formato file bitmap X10 o X11 (XBM). XBM è un formato senza perdita di dati per immagini in bianco e nero (indicizzate a due colori)."
@@ -1433,7 +1433,7 @@
         (proc-arg 7 "GParamString" "gchararray" "prefix" "Prefisso i_dentificativo" "Prefisso identificativo [determinato dal nome del file]" 3 "bitmap")
         (proc-arg 5 "GParamBoolean" "gboolean" "write-mask" "Scrivi _file maschera extra" "Scrivi file maschera extra" 3 0)
         (proc-arg 7 "GParamString" "gchararray" "mask-suffix" "Estensioni file masc_hera" "Suffisso del file maschera" 3 "-mask")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-wmf/file-wmf" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-wmf/file-wmf" 1783323131
     (proc-def "file-wmf-load-thumb" 1
          "Loads a small preview from a WMF image"
          ""
@@ -1478,7 +1478,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "keep-ratio" "_Mantieni proporzioni" "Forza il rispetto delle proporzioni nelle dimensioni" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "prefer-native-dimensions" "_Preferisci dimensioni native" "Carica e usa le dimensioni del file sorgente" 3 0)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-webp/file-webp" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-webp/file-webp" 1783323131
     (proc-def "file-webp-load" 1
          "Loads images in the WebP file format"
          "Loads images in the WebP file format"
@@ -1533,7 +1533,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "include-xmp" "Salva _XMP" "Salva i metadati XMP" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-color-profile" "Salva _profilo colore" "Salva il profilo colore ICC come metadati" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-thumbnail" "Salva minia_tura" "Salva una rappresentazione rimpicciolita dell'immagine come metadati" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-wbmp/file-wbmp" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-wbmp/file-wbmp" 1783323131
     (proc-def "file-wbmp-load" 1
          "Carica file in formato BMP Wireless"
          "Carica file in formato BMP Wireless"
@@ -1569,7 +1569,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-tim/file-tim" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-tim/file-tim" 1783323131
     (proc-def "file-tim-load" 1
          "Carica file in formato TIM"
          "Carica file in formato Sony Playstation TIM"
@@ -1610,7 +1610,7 @@
         (proc-arg 1 "GParamInt" "gint" "origin-y" "_Y immagine" "Coordinata Y dell'origine" 3 0 65535 0)
         (proc-arg 1 "GParamInt" "gint" "palette-x" "_X tavolozza" "Coordinata X della tavolozza" 3 0 65535 0)
         (proc-arg 1 "GParamInt" "gint" "palette-y" "Y t_avolozza" "Coordinata Y della t_volozza" 3 0 511 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-tiff/file-tiff" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-tiff/file-tiff" 1783323131
     (proc-def "file-tiff-load" 1
          "Carica file in formato TIFF e BigTIFF"
          "Carica i file del formato Tag Image File Format (TIFF) e la sua variante con offset a 64 bit (BigTIFF)"
@@ -1661,7 +1661,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "include-color-profile" "Salva _profilo colore" "Salva il profilo colore ICC come metadati" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-thumbnail" "Salva minia_tura" "Salva una rappresentazione rimpicciolita dell'immagine come metadati" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-comment" "Salva c_ommento" "Salva il commento come metadati" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-tga/file-tga" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-tga/file-tga" 1783323131
     (proc-def "file-tga-load" 1
          "Loads files of Targa file format"
          "FIXME: write help for tga_load"
@@ -1702,7 +1702,7 @@
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 5 "GParamBoolean" "gboolean" "rle" "_Usa compressione RLE" "Usa compressione RLE" 3 1)
         (proc-arg 4 "GimpParamChoice" "gchararray" "origin" "Ori_gine" "Origine immagine" 3 "bottom-left" 2 "bottom-left" 1 "In basso a sinistra" "" "top-left" 0 "In alto a sinistra" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-svg/file-svg" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-svg/file-svg" 1783323131
     (proc-def "file-svg-load" 1
          "Carica file in formato SVG"
          "Renders SVG files to raster graphics using librsvg."
@@ -1749,7 +1749,7 @@
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 7 "GParamString" "gchararray" "title" "_Titolo" "Titolo opzionale per l'SVG" 3 "")
         (proc-arg 4 "GimpParamChoice" "gchararray" "raster-export-format" "I_ncorpora livelli raster come" "" 3 "png" 3 "png" 1 "PNG (sempre)" "" "jpeg" 2 "JPEG (per immagini opache, altrimenti PNG)" "" "none" 0 "Non esportare i livelli raster" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-sunras/file-sunras" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-sunras/file-sunras" 1783323131
     (proc-def "file-sunras-load" 1
          "Carica file in formato SunRaster"
          "Carica file in formato SunRaster"
@@ -1789,7 +1789,7 @@
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 4 "GimpParamChoice" "gchararray" "rle" "Formattazione _dati" "Usa l'uscita standard o con codifica Run-Length" 3 "rle" 2 "standard" 0 "Standard" "" "rle" 1 "Codifica RLE" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-sgi/file-sgi" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-sgi/file-sgi" 1783323131
     (proc-def "file-sgi-load" 1
          "Carica file in formato SGI"
          "Questo plug-in carica file immagini in formato SGI."
@@ -1829,7 +1829,7 @@
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 4 "GimpParamChoice" "gchararray" "compression" "_Tipo di compressione" "Livello di compressione" 3 "rle" 3 "none" 0 "No compressione" "" "rle" 1 "Compressione RLE" "" "arle" 2 "RLE aggressiva (non supportata da SGI)" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-seattle-filmworks/file-seattle-filmworks" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-seattle-filmworks/file-seattle-filmworks" 1783323131
     (proc-def "file-seattle-filmworks-load" 1
          "Carica file in formato Seattle FilmWorks"
          "Carica file in formato Seattle FilmWorks"
@@ -1849,7 +1849,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder" 1783323131
     (proc-def "file-raw-placeholder-canon-load" 1
          "Load files in the Canon raw formats via placeholder"
          "This plug-in loads files in Canon's raw formats by calling placeholder."
@@ -2325,7 +2325,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-raw-data/file-raw-data" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-raw-data/file-raw-data" 1783323131
     (proc-def "file-raw-load" 1
          "Carica immagini raw, specificando le informazioni sull'immagine"
          "Carica immagini raw, specificando le informazioni sull'immagine"
@@ -2411,7 +2411,7 @@
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 4 "GimpParamChoice" "gchararray" "planar-configuration" "configurazione planare" "Come vengono archiviati i dati di colore dei pixel" 3 "contiguous" 2 "contiguous" 0 "Contigui" "" "planar" 1 "Planare" "")
         (proc-arg 4 "GimpParamChoice" "gchararray" "palette-type" "D_isposizione tavolozza" "La disposizione dei canali di colore della tavolozza" 3 "rgb" 2 "rgb" 0 "R, G, B (normale)" "" "bgr" 1 "B, G, R, X (stile bmp)" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-qoi/file-qoi" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-qoi/file-qoi" 1783323131
     (proc-def "file-qoi-load" 1
          "Carica file in formato QOI"
          "Carica file in formato QOI (Quite OK Image)"
@@ -2450,7 +2450,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pvr/file-pvr" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pvr/file-pvr" 1783323131
     (proc-def "file-pvr-load" 1
          "Carica file in formato PVR"
          "Carica file in formato motivo PowerVR"
@@ -2469,7 +2469,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-psp/file-psp" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-psp/file-psp" 1783323131
     (proc-def "file-psp-load" 1
          "Carica immagini in formato PSP Paint Shop Pro"
          "Questo plug-in carica ed esporta immagini nel formato PSP nativo di Paint Shop Pro. I livelli vettoriali non vengono gestiti. L'esportazione non è ancora implementata."
@@ -2489,7 +2489,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-psd/file-psd" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-psd/file-psd" 1783323131
     (proc-def "file-psd-load-thumb" 1
          "Carica le miniature dai file in formato Photoshop PSD"
          "Questo plug-in carica le miniature immagini dai file in formato PSD nativo di Adobe Photoshop (TM)."
@@ -2624,7 +2624,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "metadata-type" "Metadata type" "If the metadata contains image or layer PSD resources." 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "cmyk" "CMYK" "If the layer metadata needs to be converted from CMYK colorspace." 3 0)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-ps/file-ps" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-ps/file-ps" 1783323131
     (proc-def "file-ps-load-thumb" 1
          "Carica una piccola anteprima da un documento PostScript o PDF"
          ""
@@ -2766,7 +2766,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "eps-flag" "Postscript incapsula_to" "Se abilitato, esporta come PostScript Incapsulato. Altrimenti esporta come PostScript." 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "show-preview" "_Anteprima" "Mostra anteprima" 3 0)
         (proc-arg 1 "GParamInt" "gint" "preview" "_Dimensioni anteprima" "Dimensione massima dell'anteprima. Impostato su 0 per nessuna anteprima." 3 0 524288 256)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pnm/file-pnm" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pnm/file-pnm" 1783323131
     (proc-def "file-pnm-load" 1
          "Carica file in formato PNM"
          "Questo plug-in carica file nei vari formati di file Netpbm."
@@ -2911,7 +2911,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-png/file-png" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-png/file-png" 1783323131
     (proc-def "file-png-load" 1
          "Loads files in PNG file format"
          "This plug-in loads Portable Network Graphics (PNG) files."
@@ -2983,7 +2983,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "include-color-profile" "Salva _profilo colore" "Salva il profilo colore ICC come metadati" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-thumbnail" "Salva minia_tura" "Salva una rappresentazione rimpicciolita dell'immagine come metadati" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-comment" "Salva c_ommento" "Salva il commento come metadati" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pix/file-pix" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pix/file-pix" 1783323131
     (proc-def "file-pix-load" 1
          "Carica file in formato Alias|Wavefront o Esm Software Pix"
          "Carica file in formato Alias|Wavefront o Esm Software Pix"
@@ -3022,7 +3022,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pdf-load/file-pdf-load" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pdf-load/file-pdf-load" 1783323131
     (proc-def "file-pdf-load-thumb" 1
          "Loads a preview from a PDF file."
          "Loads a small preview of the first page of the PDF format file. Uses the embedded thumbnail if present."
@@ -3072,7 +3072,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "antialias" "Usa l'_antialiasing" "Usa l'antialiasing per i testi" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "white-background" "_Riempi le aree trasparenti col bianco" "Rendi tutte le pagine opache riempendone gli sfondi col bianco" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pdf-export/file-pdf-export" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pdf-export/file-pdf-export" 1783323131
     (proc-def "file-pdf-export" 1
          "Salva file in formato PDF"
          "Salva i file nel formato PDF di Adobe. Il PDF è progettato per essere facilmente elaborato da una varietà di piattaforme diverse ed è un lontano cugino di PostScript."
@@ -3119,7 +3119,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "apply-masks" "_Applica maschere di livello" "Applica le maschere di livello prima di salvare (mantenendo la maschera non cambierà il risultato, solo la struttura del PDF)" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "fill-background-color" "_Riempi le aree trasparenti con il colore di sfondo" "Riempie le aree trasparenti con il colore di sfondo se il livello non ha un canale alfa" 3 1)
         (proc-arg 7 "GParamString" "gchararray" "uri" "Salva su" "L'URI del file su cui salvare" 3 "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pcx/file-pcx" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pcx/file-pcx" 1783323131
     (proc-def "file-pcx-load" 1
          "Carica file in formato PCX Zsoft"
          "FIXME: write help for pcx_load"
@@ -3179,7 +3179,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pat/file-pat" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pat/file-pat" 1783323131
     (proc-def "file-pat-export" 1
          "Esporta file motivo di GIMP (.PAT)"
          "È possibile creare nuovi motivi GIMP esportandoli nella posizione appropriata con questo plug-in."
@@ -3201,7 +3201,7 @@
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 7 "GParamString" "gchararray" "description" "_Descrizione" "Breve descrizione del motivo" 3 "Motivo GIMP")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-paa/file-paa" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-paa/file-paa" 1783323131
     (proc-def "file-paa-load" 1
          "Carica file in formato PAA"
          "Carica file in formato PAA Bohemia Interactive"
@@ -3219,7 +3219,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-openraster/file-openraster.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-openraster/file-openraster.py" 1783323131
     (proc-def "file-openraster-load-thumb" 1
          "carica una miniatura da un file OpenRaster (.ora)"
          "carica una miniatura da un file OpenRaster (.ora)"
@@ -3276,7 +3276,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-mng/file-mng" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-mng/file-mng" 1783323131
     (proc-def "file-mng-export" 1
          "Salva immagini nel formato file MNG"
          "Questo plug-in salva le immagini nel formato Multiple-image Network Graphics (MNG) che può essere usato al posto delle GIF animate e altro."
@@ -3308,7 +3308,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "gama" "Salva _gamma" "Scrivi spezzone gAMA (gamma)" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "phys" "Sal_va la risoluzione" "Scrivi spezzone pHYs (risoluzione immagine)" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "time" "Salva la da_ta di creazione" "Scrivi spezzone tIME (tempo di creazione)" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jpegxl/file-jpegxl" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jpegxl/file-jpegxl" 1783323131
     (proc-def "file-jpegxl-load" 1
          "Carica file in formato JPEG XL"
          "Carica file in formato JPEG XL"
@@ -3354,7 +3354,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "cmyk" "Esporta come CMY_K" "Crea una immagine JPEG XL CMYK usando il profilo colore del provino video" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-exif" "Salva Exi_f" "Commuta salvataggio dati Exif" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-xmp" "Salva _XMP" "Commuta salvataggio dati XMP" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jpeg/file-jpeg" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jpeg/file-jpeg" 1783323131
     (proc-def "file-jpeg-load-thumb" 1
          "Carica miniatura da un'immagine JPEG"
          "Carica una miniatura da un'immagine JPEG, se c'è"
@@ -3428,7 +3428,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "include-color-profile" "Salva _profilo colore" "Salva il profilo colore ICC come metadati" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-thumbnail" "Salva minia_tura" "Salva una rappresentazione rimpicciolita dell'immagine come metadati" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-comment" "Salva c_ommento" "Salva il commento come metadati" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jp2/file-jp2" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jp2/file-jp2" 1783323131
     (proc-def "file-jp2-load" 1
          "Loads JPEG 2000 images."
          "The JPEG 2000 image loader."
@@ -3519,7 +3519,7 @@
         (proc-arg 4 "GimpParamChoice" "gchararray" "progression-order" "Ordine pro_gressivo" "" 3 "lrcp" 5 "lrcp" 0 "LRCP" "" "rlcp" 1 "RLCP" "" "rpcl" 2 "RPCL" "" "pcrl" 3 "PCRL" "" "cprl" 4 "CPRL" "")
         (proc-arg 4 "GimpParamChoice" "gchararray" "compliance" "Profilo confor_mità" "Impostato per garantire la conformità alle specifiche del cinema digitale" 3 "standard" 4 "standard" 0 "Profilo standard" "" "cinema-2k-24" 1 "Cinema2K (24 FPS)" "" "cinema-2k-48" 2 "Cinema2K (48 FPS)" "" "cinema-4k-24" 3 "Cinema4K (24 FPS)" "")
         (proc-arg 5 "GParamBoolean" "gboolean" "cmyk" "E_sporta come CMYK" "Crea un'immagine CMYK JPEG 2000 usando il profilo colore del provino video" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-ico/file-ico" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-ico/file-ico" 1783323131
     (proc-def "file-ico-load-thumb" 1
          "Loads a preview from a Windows ICO or CUR files"
          ""
@@ -3680,7 +3680,7 @@
         (proc-arg 1 "GParamInt" "gint" "default-delay" "Default delay" "Default delay between frames in jiffies (1/60 of a second)" 3 0 2147483647 8)
         (proc-arg 0 "GimpParamInt32Array" "GimpInt32Array" "hot-spot-x" "Hot spot X" "X coordinates of hot spot (one per layer)" 3)
         (proc-arg 0 "GimpParamInt32Array" "GimpInt32Array" "hot-spot-y" "Hot spot Y" "Y coordinates of hot spot (one per layer)" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-icns/file-icns" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-icns/file-icns" 1783323131
     (proc-def "file-icns-load-thumb" 1
          "Loads a preview from an Apple Icon Image file"
          ""
@@ -3740,7 +3740,7 @@
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 5 "GParamBoolean" "gboolean" "include-color-profile" "Salva _profilo colore" "Salva il profilo colore ICC come metadati" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-html-table/file-html-table" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-html-table/file-html-table" 1783323131
     (proc-def "file-html-table-export" 1
          "Tabella magica GIMP"
          "Permette di disegnare una tabella HTML in GIMP. Consultare la guida per ulteriori informazioni."
@@ -3761,9 +3761,9 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-heif/file-heif" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-heif/file-heif" 1783323131
     (has-init))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-header/file-header" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-header/file-header" 1783323131
     (proc-def "file-header-export" 1
          "Salva i file come array di caratteri C senza segno"
          "FIXME: write help"
@@ -3784,7 +3784,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-glob/file-glob" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-glob/file-glob" 1783323131
     (proc-def "file-glob" 1
          "Returns a list of matching filenames"
          "This can be useful in scripts and other plug-ins (e.g., batch-conversion). See the glob(7) manpage for more info. Note however that this isn't a full-featured glob implementation. It only handles simple patterns like \"/home/foo/bar/*.jpg\"."
@@ -3800,7 +3800,7 @@
         (proc-arg 7 "GParamString" "gchararray" "pattern" "Pattern" "The glob pattern (in UTF-8 encoding)" 3 "")
         (proc-arg 5 "GParamBoolean" "gboolean" "filename-encoding" "Filename encoding" "FALSE to return UTF-8 strings, TRUE to return strings in filename encoding" 3 0)
         (proc-arg 0 "GParamBoxed" "GStrv" "files" "Files" "The list of matching filenames" 259)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gih/file-gih" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gih/file-gih" 1783323131
     (proc-def "file-gih-export" 1
          "Esporta file nel formato pennello animato di GIMP"
          "Questo plug-in esporta un'immagine nel formato pennello animanto di GIMP. Per un pennello animato colorato vengono utilizzati i livelli RGBA, altrimenti i livelli dovrebbero essere maschere in scala di grigi. L'immagine può essere multilivello e inoltre i livelli possono essere divisi in una serie rettangolare di pennelli."
@@ -3828,7 +3828,7 @@
         (proc-arg 1 "GParamInt" "gint" "num-cells" "_Numero di celle" "Numero di celle da tagliare" 3 1 1000 1)
         (proc-arg 0 "GParamBoxed" "GBytes" "ranks" "_Rango" "Rango delle dimensioni" 3)
         (proc-arg 0 "GParamBoxed" "GStrv" "selection-modes" "Modalità selezione" "Modalità selezione" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gif-load/file-gif-load" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gif-load/file-gif-load" 1783323131
     (proc-def "file-gif-load-thumb" 1
          "Loads only the first frame of a GIF image, to be used as a thumbnail"
          ""
@@ -3905,7 +3905,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gif-export/file-gif-export" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gif-export/file-gif-export" 1783323131
     (proc-def "file-gif-export" 1
          "esporta file in formato file GIF"
          "Esporta un file in formato GIF, anche con animazioni, trasparenze e commenti. Per esportare un'animazione, operare su un file multilivello e dare il parametro 'as-animation' come TRUE. Il plug-in interpreterà <50% alfa come trasparente. Eseguito in modo non interattivo, il valore del commento verrà preso dal parassita 'gimp-comment'."
@@ -3934,7 +3934,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "as-animation" "Come _animazione" "Esportare come animazione GIF?" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "force-delay" "_Usa il ritardo inserito sopra per tutti i fotogrammi" "(gif animata)_Usa il ritardo predefinito per tutti i fotogrammi" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "force-dispose" "Usa queste dis_posizioni per tutti i fotogrammi" "(gif animata) Usa scarto specificato per tutti i fotogrammi" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gegl/file-gegl" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gegl/file-gegl" 1783323131
     (proc-def "file-rgbe-load" 1
          "Load files in the RGBE file format"
          "This procedure loads images in the RGBE format, using gegl:rgbe-load"
@@ -3992,7 +3992,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gbr/file-gbr" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-gbr/file-gbr" 1783323131
     (proc-def "file-gbr-export" 1
          "Esporta file nel formato pennello di GIMP"
          "Esporta file nel formato pennello di GIMP"
@@ -4015,7 +4015,7 @@
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 1 "GParamInt" "gint" "spacing" "Sp_aziatura" "Spaziatura del pennello" 3 1 1000 10)
         (proc-arg 7 "GParamString" "gchararray" "description" "_Descrizione" "Breve descrizione del pennello" 3 "Pennello GIMP")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-fli/file-fli" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-fli/file-fli" 1783323131
     (proc-def "file-fli-load" 1
          "Carica film-FLI"
          "Questo è un plug-in sperimentale per gestire i filmati FLI"
@@ -4073,7 +4073,7 @@
         (proc-arg 1 "GParamInt" "gint" "width" "Width" "Width of one frame" 3 0 524288 0)
         (proc-arg 1 "GParamInt" "gint" "height" "Height" "Height of one frame" 3 0 524288 0)
         (proc-arg 1 "GParamInt" "gint" "frames" "Frames" "Number of frames" 3 0 2147483647 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-fits/file-fits" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-fits/file-fits" 1783323131
     (proc-def "file-fits-load" 1
          "Carica file in formato FITS"
          "Carica file in formato FITS (Sistema di Trasporto Immagine Flessibile)"
@@ -4112,7 +4112,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-faxg3/file-faxg3" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-faxg3/file-faxg3" 1783323131
     (proc-def "file-faxg3-load" 1
          "Loads g3 fax files"
          "This plug-in loads Fax G3 Image files."
@@ -4132,7 +4132,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-farbfeld/file-farbfeld" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-farbfeld/file-farbfeld" 1783323131
     (proc-def "file-farbfeld-load" 1
          "Carica file in formato Farbfeld"
          "Carica file in formato Farbfeld"
@@ -4169,7 +4169,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-exr/file-exr" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-exr/file-exr" 1783323131
     (proc-def "file-exr-load" 1
          "Carica file in formato OPEMEXR"
          "This plug-in loads OpenEXR files. "
@@ -4189,7 +4189,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-dicom/file-dicom" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-dicom/file-dicom" 1783323131
     (proc-def "file-dicom-load" 1
          "Carica file in formato DICOM"
          "Carica un file nel formato standard DICOM. Lo standard è definito su http://medical.nema.org/. Il plug-in supporta attualmente solo la lettura di immagini con sezioni pixel non compresse."
@@ -4228,7 +4228,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-desktop-link/file-desktop-link" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-desktop-link/file-desktop-link" 1783323131
     (proc-def "file-desktop-link-load" 1
          "Follows a link to an image in a .desktop file"
          "Opens a .desktop file and if it is a link, it asks GIMP to open the file the link points to."
@@ -4246,7 +4246,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-dds/file-dds" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-dds/file-dds" 1783323131
     (proc-def "file-dds-load" 1
          "Carica file in formato immagine DDS"
          "Carica file in formato immagine DDS"
@@ -4302,7 +4302,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "gamma" "_Gamma" "Valore gamma da usare per la correzione gamma (per es. 2.2)" 3 0 10 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "preserve-alpha-coverage" "Mantieni copertura test al_fa" "Mantieni copertura test alfa per le mappe canali alfa" 3 0)
         (proc-arg 6 "GParamDouble" "gdouble" "alpha-test-threshold" "Soglia test _alfa" "Valore soglia del test alfa per il quale la copertura del test alfa deve essere preservata" 3 0 1 0.5)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-csource/file-csource" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-csource/file-csource" 1783323131
     (proc-def "file-csource-export" 1
          "Scarica i dati immagine in formato RGB(A) per codice sorgente C"
          "Scarica i dati immagine in formato RGB(A) per codice sorgente C"
@@ -4323,7 +4323,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The image to export" 3 0)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-compressor/file-compressor" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-compressor/file-compressor" 1783323131
     (proc-def "file-gz-load" 1
          "Carica file compressi con gzip"
          "Questa procedura carica file nel formato compresso gzip."
@@ -4464,7 +4464,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to load" 3 0 0 "")
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "Output image" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-cel/file-cel" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-cel/file-cel" 1783323131
     (proc-def "file-cel-load" 1
          "Loads files in KISS CEL file format"
          "This plug-in loads individual KISS cell files."
@@ -4504,7 +4504,7 @@
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 13 "GimpParamFile" "GFile" "palette-file" "File ta_volozza" "File su cui salvare la tavolozza" 3 1 0 "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-bmp/file-bmp" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-bmp/file-bmp" 1783323131
     (proc-def "file-bmp-load" 1
          "Carica file in formato BMP di Windows"
          "Carica file in formato BMP di Windows"
@@ -4546,7 +4546,7 @@
         (proc-arg 5 "GParamBoolean" "gboolean" "use-rle" "Codifica R_LE" "Usa la compressione della run-length-encoding (valida solo per immagini indicizzate a 4 e 8 bit)" 3 0)
         (proc-arg 5 "GParamBoolean" "gboolean" "write-color-space" "_Scrivi le informazioni sullo spazio colore" "Se scrivere o meno i dati dello spazio colore BITMAPV5HEADER" 3 1)
         (proc-arg 4 "GimpParamChoice" "gchararray" "rgb-format" "Formato R_GB" "Formato esportazione immagini RGB" 3 "rgb-888" 6 "rgb-565" 0 "16 bit (R5 G6 B5)" "" "rgba-5551" 1 "16 bit (A1 R5 G5 B5)" "" "rgb-555" 2 "16 bit (X1 R5 G5 B5)" "" "rgb-888" 3 "24 bit (R8 G8 B8)" "" "rgba-8888" 4 "32 bit (A8 R8 G8 B8)" "" "rgbx-8888" 5 "32 bit (X8 R8 G8 B8)" "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-aa/file-aa" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-aa/file-aa" 1783323131
     (proc-def "file-aa-export" 1
          "Salva l'immagine in scala di grigi in vari formati di testo"
          "Questo plugin usa aalib per salvare l'immagine in scala di grigi come ascii-art in una varietà di formati di testo"
@@ -4567,7 +4567,7 @@
         (proc-arg 13 "GimpParamFile" "GFile" "file" "File" "The file to export to" 3 1 0 "")
         (proc-arg 11 "GimpParamExportOptions" "GimpExportOptions" "options" "Options" "Export options" 3)
         (proc-arg 1 "GParamInt" "gint" "file-type" "_Formato" "Tipo di file da usare" 3 0 11 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/destripe/destripe" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/destripe/destripe" 1783323131
     (proc-def "plug-in-destripe" 1
          "Rimuove le strisce verticali dall'immagine"
          "Questo plug-in cerca di rimuovere le strisce verticali da un'immagine."
@@ -4586,7 +4586,7 @@
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 1 "GParamInt" "gint" "avg-width" "_Larghezza" "Larghezza filtro media" 3 2 100 36)
         (proc-arg 5 "GParamBoolean" "gboolean" "create-histogram" "Crea _istogramma" "Genera un istogramma" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/despeckle/despeckle" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/despeckle/despeckle" 1783323131
     (proc-def "plug-in-despeckle" 1
          "Rimuovi i picchi di rumore dall'immagine"
          "Questo plug-in esegue selettivamente una mediana o un filtro box adattivo su un'immagine."
@@ -4607,7 +4607,7 @@
         (proc-arg 4 "GimpParamChoice" "gchararray" "type" "Tipo _filtro" "Tipo filtro" 3 "adaptive" 4 "median" 0 "Mediano" "" "adaptive" 1 "Adattivo" "" "recursive-median" 2 "Mediano-ricorsivo" "" "recursive-adaptive" 3 "Adattivo-ricorsivo" "")
         (proc-arg 1 "GParamInt" "gint" "black" "Livello del _nero" "Livello del nero" 3 -1 255 7)
         (proc-arg 1 "GParamInt" "gint" "white" "Livello del _bianco" "Livello del bianco" 3 0 256 248)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/depth-merge/depth-merge" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/depth-merge/depth-merge" 1783323131
     (proc-def "plug-in-depth-merge" 1
          "Combina due immagini usando le mappe di profondità (z-buffer)"
          "Taking as input two full-color, full-alpha images and two corresponding grayscale depth maps, this plug-in combines the images based on which is closer (has a lower depth map value) at each point."
@@ -4632,7 +4632,7 @@
         (proc-arg 6 "GParamDouble" "gdouble" "offset" "Scos_tamento" "Scostamento con la profondità" 3 -1 1 0)
         (proc-arg 6 "GParamDouble" "gdouble" "scale-1" "Sc_ala 1" "Scala 1 con la profondità" 3 -1 1 1)
         (proc-arg 6 "GParamDouble" "gdouble" "scale-2" "_Scala 2" "Scala 2 con la profondità" 3 -1 1 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/decompose/decompose" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/decompose/decompose" 1783323131
     (proc-def "plug-in-decompose" 1
          "Scompone un'immagine in componenti di spazio colore separati"
          "This function creates new gray images with different channel information in each of them"
@@ -4656,7 +4656,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "new-image-2" "New image 2" "Output gray image 2 (N/A for single channel extract)" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "new-image-3" "New image 3" "Output gray image 3 (N/A for single channel extract)" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "new-image-4" "New image 4" "Output gray image 4 (N/A for single channel extract)" 3 1)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/curve-bend/curve-bend" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/curve-bend/curve-bend" 1783323131
     (proc-def "plug-in-curve-bend" 1
          "Piega l'immagine usando due curve di controllo"
          "Questo plug-in piega il livello attivo. Se c'è una selezione corrente, questa viene copiata nella selezione flottante e su questa viene eseguita la distorsione curve_bend. Se il parametro work_on_copy è TRUE, la distorsione curve_bend viene eseguita su una copia del livello attivo (o selezione flottante). I bordi superiore e inferiore vengono piegati in forma di 2 curve spline. Entrambe le curve (superiore e inferiore) sono determinate da un massimo di 17 punti o da 256 valori Y se curve_type == 1 (modalità a mano libera). Se la rotazione non è 0, il livello viene prima ruotato e poi raddrizzato dopo l'operazione di piegatura. Ciò consente la piegatura in direzioni diverse da quella verticale. La piegatura solitamente modifica la dimensione del livello trattato. Questo plug-in imposta gli scostamenti del livello gestito per mantenerne il centro nella stessa posizione."
@@ -4686,7 +4686,7 @@
         (proc-arg 0 "GParamBoxed" "GBytes" "upper-val-y" "val Y più alto" "Array di 256 coord. y a mano libera { 0 <= y <= 255 }" 3)
         (proc-arg 0 "GParamBoxed" "GBytes" "lower-val-y" "Val Y più basso" "Array di 256 coord. y a mano libera { 0 <= y <= 255 }" 3)
         (proc-arg 9 "GimpParamLayer" "GimpLayer" "bent-layer" "Livello piegato" "Il livello trasformato" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/crop-zealous/crop-zealous" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/crop-zealous/crop-zealous" 1783323131
     (proc-def "plug-in-zealouscrop" 1
          "Autoritaglia gli spazi non usati dai bordi e dal centro"
          ""
@@ -4703,7 +4703,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/contrast-retinex/contrast-retinex" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/contrast-retinex/contrast-retinex" 1783323131
     (proc-def "plug-in-retinex" 1
          "Aumenta il contrasto usando il metodo Retinex"
          "L'algoritmo di miglioramento dell'immagine Retinex è un metodo di miglioramento automatico dell'immagine che migliora un'immagine digitale in termini di compressione della gamma dinamica, indipendenza del colore dalla distribuzione spettrale dell'illuminante della scena e resa del colore/luminosità."
@@ -4724,7 +4724,7 @@
         (proc-arg 1 "GParamInt" "gint" "nscales" "_Divisione scala" "Numero di placche" 3 0 8 3)
         (proc-arg 4 "GimpParamChoice" "gchararray" "scales-mode" "Li_vello" "Distribuzione Retinex attraverso le placche" 3 "uniform" 3 "uniform" 0 "Uniforme" "" "low" 1 "Basso" "" "high" 2 "Alto" "")
         (proc-arg 6 "GParamDouble" "gdouble" "cvar" "Di_namica" "Valore varianza" 3 0 4 1.2)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/compose/compose" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/compose/compose" 1783323131
     (proc-def "plug-in-compose" 1
          "Crea un'immagine usando più immagini grige come canali di colore"
          "Crea un'immagine da più immagini in toni di grigio"
@@ -4782,7 +4782,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/colorxhtml/colorxhtml.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/colorxhtml/colorxhtml.py" 1783323131
     (proc-def "file-colorxhtml-export" 1
          "Salva come testo HTML colorato"
          "Saves the image as colored XHTML text (based on Perl version by Marc Lehmann)"
@@ -4805,7 +4805,7 @@
         (proc-arg 7 "GParamString" "gchararray" "characters" "Cara_tteri" "Caratteri che verranno usati come pixel colorati." 3 "foo")
         (proc-arg 1 "GParamInt" "gint" "font-size" "Dime_nsione carattere in pixel" "Dimensione carattere in pixel" 3 5 100 10)
         (proc-arg 5 "GParamBoolean" "gboolean" "separate" "Sc_rivi un file CSS separato" "Scrivi un file CSS separato" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/colormap-remap/colormap-remap" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/colormap-remap/colormap-remap" 1783323131
     (proc-def "plug-in-colormap-swap" 1
          "Scambia due colori nella mappa colori"
          "Questa procedura prende un'immagine indicizzata e permette di scambiare le posizioni di due colori nella mappa colori senza cambiare l'aspetto dell'immagine."
@@ -4841,7 +4841,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 0 "GParamBoxed" "GBytes" "map" "Mappa" "Rimappa array per la mappa colori" 3)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/cml-explorer/cml-explorer" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/cml-explorer/cml-explorer" 1783323131
     (proc-def "plug-in-cml-explorer" 1
          "Crea motivi astratti Coupled-Map-Lattice"
          "Crea un'immagine Coupled-Map Lattice (CML). La CML è una sorta di automa cellulare su un dominio continuo (di valore). In GIMP_RUN_NONINTERACTIVE, il nome di un file di parametri viene passato come quarto argomento. Si può controllare CML_explorer tramite il file parametri."
@@ -4859,7 +4859,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 13 "GimpParamFile" "GFile" "parameter-file" "File parametri" "Il file parametri da quale CML_explorer crea l'immagine. Questo argomento viene usato solo per le esecuzioni non interattive." 3 0 0 "")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/checkerboard/checkerboard" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/checkerboard/checkerboard" 1783323131
     (proc-def "plug-in-checkerboard" 1
          "Crea un motivo a scacchiera"
          "More here later"
@@ -4878,7 +4878,7 @@
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 5 "GParamBoolean" "gboolean" "psychobilly" "_Psychobilly" "Crea una scacchiera tipo Psychobilly" 3 0)
         (proc-arg 1 "GParamInt" "gint" "check-size" "Dimen_sione" "Dimensione degli scacchi" 3 1 524288 10)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/busy-dialog/busy-dialog" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/busy-dialog/busy-dialog" 1783323131
     (proc-def "plug-in-busy-dialog" 1
          "Show a dialog while waiting for an operation to finish"
          "Used by GIMP to display a dialog, containing a spinner and a custom message, while waiting for an ongoing operation to finish. Optionally, the dialog may provide a \"Cancel\" button, which can be used to cancel the operation."
@@ -4896,7 +4896,7 @@
         (proc-arg 1 "GParamInt" "gint" "write-fd" "The write file descriptor" "The write file descriptor" 515 -2147483648 2147483647 0)
         (proc-arg 7 "GParamString" "gchararray" "message" "The message" "The message" 515 "")
         (proc-arg 5 "GParamBoolean" "gboolean" "cancelable" "Whether the dialog is cancelable" "Whether the dialog is cancelable" 515 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/border-average/border-average" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/border-average/border-average" 1783323131
     (proc-def "plug-in-borderaverage" 1
          "Imposta il colore di primo piano al colore medio del bordo dell'immagine"
          ""
@@ -4916,7 +4916,7 @@
         (proc-arg 1 "GParamInt" "gint" "thickness" "_Spessore" "Dimensione bordo da prendere in considerazione" 3 0 2147483647 3)
         (proc-arg 4 "GimpParamChoice" "gchararray" "bucket-exponent" "Dimensione secc_hiello" "Bit per la dimensione secchiello" 3 "levels-16" 9 "levels-1" 0 "1" "" "levels-2" 1 "2" "" "levels-4" 2 "4" "" "levels-8" 3 "8" "" "levels-16" 4 "16" "" "levels-32" 5 "32" "" "levels-64" 6 "64" "" "levels-128" 7 "128" "" "levels-256" 8 "256" "")
         (proc-arg 8 "GimpParamColor" "GeglColor" "borderaverage" "Il colore medio del bordo specificato." "Il colore medio del bordo specificato." 3 1 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0" "R'G'B'A float" 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/blinds/blinds" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/blinds/blinds" 1783323131
     (proc-def "plug-in-blinds" 1
          "Simula un'immagine dipinta su veneziane"
          "More here later"
@@ -4937,7 +4937,7 @@
         (proc-arg 1 "GParamInt" "gint" "num-segments" "_Numero di segmenti" "Numero di segmenti in strisce" 3 1 1024 3)
         (proc-arg 4 "GimpParamChoice" "gchararray" "orientation" "Orient_amento" "L'orientamento" 3 "horizontal" 2 "horizontal" 0 "Orizzontale" "" "vertical" 1 "Verticale" "")
         (proc-arg 5 "GParamBoolean" "gboolean" "bg-transparent" "_Trasparente" "Sfondo trasparente" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/animation-play/animation-play" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/animation-play/animation-play" 1783323131
     (proc-def "plug-in-animationplay" 1
          "Anteprima di un'animazione a livelli di GIMP"
          ""
@@ -4954,7 +4954,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/animation-optimize/animation-optimize" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/animation-optimize/animation-optimize" 1783323131
     (proc-def "plug-in-animationoptimize" 1
          "Modifica l'immagine per ridurne le dimensioni quando sarà salvata come animazione GIF"
          "This procedure applies various optimizations to a GIMP layer-based animation in an attempt to reduce the final file size.  If a frame of theanimation can use the 'combine' mode, this procedure attempts to maximize the number of adjacent pixels having the same color, whichimproves the compression for some image formats such as GIF or MNG."
@@ -5006,7 +5006,7 @@
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")
         (proc-arg 9 "GimpParamImage" "GimpImage" "result" "Result" "Resulting image" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/align-layers/align-layers" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/align-layers/align-layers" 1783323131
     (proc-def "plug-in-align-layers" 1
          "Allinea livelli visibili dell'immagine"
          "Allinea livelli visibili"
@@ -5030,7 +5030,7 @@
         (proc-arg 1 "GParamInt" "gint" "grid-size" "_Griglia" "Griglia" 3 1 200 10)
         (proc-arg 5 "GParamBoolean" "gboolean" "ignore-bottom-layer" "_Ignora il livello inferiore anche se visibile" "Ignora il livello inferiore anche se visibile" 3 1)
         (proc-arg 5 "GParamBoolean" "gboolean" "use-bottom-layer" "_Usa il livello inferiore (invisibile) come base" "Usa il livello inferiore (invisibile) come base" 3 0)))
-(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-gjs.js" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-gjs.js" 1783323131
     (proc-def "plug-in-goat-exercise-gjs" 1
          "Esempio di plugin in JavaScript (GJS)"
          "Esempio di plugin in JavaScript (GJS)"
@@ -5047,7 +5047,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-py3.py" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-py3.py" 1783323131
     (proc-def "plug-in-goat-exercise-python" 1
          "Esempio di plugin in Python 3"
          "Esempio di plugin in Python 3"
@@ -5064,7 +5064,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-vala" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-vala" 1783323131
     (proc-def "plug-in-goat-exercise-vala" 1
          "Esempio di plugin in Vala"
          "Esempio di plugin in Vala"
@@ -5081,7 +5081,7 @@
         (proc-arg 3 "GParamEnum" "GimpRunMode" "run-mode" "Run mode" "The run mode" 3 1)
         (proc-arg 9 "GimpParamImage" "GimpImage" "image" "Image" "The input image" 3 0)
         (proc-arg 10 "GimpParamCoreObjectArray" "GimpCoreObjectArray" "drawables" "Drawables" "The input drawables" 259 "GimpDrawable")))
-(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-c" 1776419047
+(plug-in-def "${gimp_plug_in_dir}/extensions/org.gimp.extension.goat-exercises/goat-exercise-c" 1783323131
     (proc-def "plug-in-goat-exercise-c" 1
          "Esempio di plugin in C"
          "Esempio di plugin in C"
