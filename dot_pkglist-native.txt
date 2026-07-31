@@ -54,6 +54,7 @@ libvncserver
 linux
 linux-firmware
 linux-headers
+mtr
 nano
 nautilus
 neovim
