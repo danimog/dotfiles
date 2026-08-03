@@ -163,6 +163,18 @@ infosh() {
     ssh informatica@$1 "${@:2}"
 }
 
+# Funzione SSH personalizzata per utente gary
+tm-ssh() {
+  local user="$1"
+  local server="$2"
+  local session="$3"
+  if [[ -z "$user" ]] || [[ -z "$server" ]]; then
+    echo "Uso: tm-ssh <user> <server> [sessione]"
+      return 1
+  fi
+  ssh -t "${user}@$server" "tmux a -t $session 2>/dev/null || tmux new -s $session"
+}
+
 latr() {
   ls -altr
 }
