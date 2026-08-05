@@ -19,6 +19,7 @@ docker
 docker-compose
 efibootmgr
 eza
+fastfetch
 fd
 firefox
 foliate
