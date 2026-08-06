@@ -16,6 +16,7 @@ cups
 cups-pdf
 davfs2
 docker
+docker-buildx
 docker-compose
 efibootmgr
 eza
