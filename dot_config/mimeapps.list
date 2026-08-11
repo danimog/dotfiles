@@ -9,3 +9,4 @@ application/yaml=vim.desktop
 [Added Associations]
 application/x-zerosize=libreoffice-calc.desktop;
 application/yaml=vim.desktop;
+application/pkcs7-mime=firefox.desktop;

@@ -46,6 +46,7 @@ intel-ucode
 jre8-openjdk
 keepassxc
 kitty
+kleopatra
 kvantum
 kwallet
 less
