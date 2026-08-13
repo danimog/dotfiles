@@ -4,6 +4,7 @@ awww
 base
 base-devel
 bat
+bc
 bind
 borg
 brightnessctl
