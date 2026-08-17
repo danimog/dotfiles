@@ -19,5 +19,6 @@ verapdf
 visual-studio-code-bin
 webkit2gtk
 wlogout
+wttrbar
 yay
 zoiper-bin

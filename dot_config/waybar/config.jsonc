@@ -8,6 +8,7 @@
     "height": 0,
     "modules-left": [
         "clock",
+        "custom/weather",
         "hyprland/workspaces",
     ],
     "modules-center": [
@@ -58,6 +59,11 @@
                 "today": "<span color='#a6adc8'><b>{}</b></span>",
                 "days": "<span color='#555869'><b>{}</b></span>"
             }
+        },
+        "actions": {
+          "on-click-right": "mode",
+          "on-scroll-up": "shift_up",
+          "on-scroll-down": "shift_down",
         }
     },
 
@@ -140,6 +146,14 @@
       "format": "⏻ ",
       "on-click": "wlogout -b 2",
       "tooltip": false
+    },
+
+    "custom/weather": {
+      "format": "{}",
+      "tooltip": true,
+      "interval": 3600,
+      "exec": "wttrbar --location 'Sestri Levante' --main-indicator temp_C",
+      "return-type": "json"
     },
 
     "custom/notification": {

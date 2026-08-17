@@ -157,3 +157,13 @@ window#waybar {
     padding: 0 10px;
     font-size: 16px;
 }
+
+#custom-weather {
+  padding: 0 8px;
+  margin: 3px 0px;
+  margin-top: 5px;
+  /* background: #1e1e2e; */
+  background-color: rgba(0,102,51,0.15);
+  border-radius: 10px;
+  margin-left: 10px;
+}
