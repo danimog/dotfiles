@@ -66,6 +66,7 @@ networkmanager
 nfs-utils
 nmap
 nodejs
+noto-fonts-emoji
 npm
 nvidia-utils
 nwg-look

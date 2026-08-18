@@ -159,6 +159,7 @@ window#waybar {
 }
 
 #custom-weather {
+  font-family: "JetBrainsMono Nerd Font", "Noto Color Emoji";
   padding: 0 8px;
   margin: 3px 0px;
   margin-top: 5px;
