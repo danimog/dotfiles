@@ -21,7 +21,8 @@ news.version=3.4.2
 #include dark-yellow-green.theme
 #include dark-gray-256.theme
 #include dark-gray-blue-256.theme
-include solarized-dark-256.theme
+#include solarized-dark-256.theme
+include /usr/share/doc/task/rc/solarized-dark-256.theme
 #include solarized-light-256.theme
 #include no-color.theme
 

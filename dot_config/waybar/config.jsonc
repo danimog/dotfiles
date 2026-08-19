@@ -149,11 +149,11 @@
     },
 
     "custom/weather": {
+      "exec": "~/.config/waybar/openmeteo-waybar.sh --lat 44.2726 --lon 9.3961",
+      "return-type": "json",
       "format": "{}",
       "tooltip": true,
-      "interval": 3600,
-      "exec": "wttrbar --location 'Sestri Levante' --main-indicator temp_C",
-      "return-type": "json"
+      "interval": 1800
     },
 
     "custom/notification": {
