@@ -193,5 +193,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 # Created by `pipx` on 2026-05-07 10:42:36
 export PATH="$PATH:/home/danielemoggia/.local/bin"
+export PATH="$PATH:/home/danielemoggia/go/bin"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 export EDITOR=nvim
