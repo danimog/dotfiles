@@ -75,6 +75,7 @@ openbsd-netcat
 openfortivpn
 openldap
 openssh
+openvpn
 pamixer
 pandoc-cli
 pdftk
