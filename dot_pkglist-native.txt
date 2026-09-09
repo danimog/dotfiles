@@ -71,7 +71,9 @@ npm
 nvidia-utils
 nwg-look
 obs-studio
+obsidian
 openbsd-netcat
+opencode
 openfortivpn
 openldap
 openssh

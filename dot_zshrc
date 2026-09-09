@@ -196,3 +196,6 @@ export PATH="$PATH:/home/danielemoggia/.local/bin"
 export PATH="$PATH:/home/danielemoggia/go/bin"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 export EDITOR=nvim
+
+# opencode
+export PATH=/home/danielemoggia/.opencode/bin:$PATH
